@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "link": "/"
+       
+    },
+    {
+        "id": 2,
+        "linkText": "Pages",
+        "child": true,
+        "submenu": [
+            {
+                "id": 21,
+                "link": "/about",
+                "linkText": "About us"
+            },
+            {
+                "id": 22,
+                "link": "/faqs",
+                "linkText": "FAQ's"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "linkText": "Shop",
+        "child": true,
+        "submenu": [
+            {
+                "id": 31,
+                "link": "/shop",
+                "linkText": "Shop"
+            },
+            {
+                "id": 32,
+                "link": "/product-details/1",
+                "linkText": "Product Details"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "link": "/contact",
+        "linkText": "Contact"
+    }
+]

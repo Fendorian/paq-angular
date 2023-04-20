@@ -1,0 +1,46 @@
+{
+    "en": {
+      "quickLinks": "Quick Links",
+      "companyHistory": "Company History",
+      "latestNewsBlog": "Latest News & Blog",
+      "popularServices": "Popular Services",
+      "businessConsulting": "Business & Consulting",
+      "financialPlanning": "Financial Planning",
+      "company": "Company",
+      "aboutCompany": "About Company",
+      "worldWideClients": "World Wide Clients",
+      "happyPeoples": "Happy People’s",
+      "winningAwards": "Winning Awards",
+      "companyStatics": "Company Statics"
+    },
+    "hr": {
+        "quickLinks": "Brzi linkovi",
+        "companyHistory": "Povijest tvrtke",
+        "latestNewsBlog": "Najnovije vijesti i blog",
+        "popularServices": "Popularne usluge",
+        "businessConsulting": "Poslovanje i savjetovanje",
+        "financialPlanning": "Financijsko planiranje",
+        "company": "Tvrtka",
+        "aboutCompany": "O tvrtki",
+        "worldWideClients": "Klijenti diljem svijeta",
+        "happyPeoples": "Sretne osobe",
+        "winningAwards": "Osvojeni nagrade",
+        "companyStatics": "Statistika tvrtke"
+        },
+    "de": {
+        "quickLinks": "Schnellzugriff",
+        "companyHistory": "Unternehmensgeschichte",
+        "latestNewsBlog": "Neueste Nachrichten und Blog",
+        "popularServices": "Beliebte Dienstleistungen",
+        "businessConsulting": "Unternehmensberatung",
+        "financialPlanning": "Finanzplanung",
+        "company": "Firma",
+        "aboutCompany": "Über das Unternehmen",
+        "worldWideClients": "Weltweite Kunden",
+        "happyPeoples": "Glückliche Menschen",
+        "winningAwards": "Gewonnene Auszeichnungen",
+        "companyStatics": "Unternehmensstatistik"
+        }
+    }
+
+  

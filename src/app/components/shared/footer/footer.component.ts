@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import instagram from '../../../data/instagram.json';
+import footerTranslations  from '../../../data/footer-translations.json';
+import { LanguageService } from '../../../language-service.service';
 
 @Component({
   selector: 'app-footer',
@@ -8,7 +10,12 @@ import instagram from '../../../data/instagram.json';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  public selectedLanguage: string;
+  public translations = footerTranslations;
+  public footerTranslations = footerTranslations;
+  
+
+  constructor(private languageService: LanguageService) { }
   @Input() layout: number | string;
   @Input() logo: number | string;
   @Input() shape: number | string;
@@ -27,8 +34,10 @@ export class FooterComponent implements OnInit {
     });
   }
 
-
   ngOnInit(): void {
+    this.languageService.currentLanguage.subscribe(lang => {
+      this.selectedLanguage = lang;
+    });
   }
-
 }
+

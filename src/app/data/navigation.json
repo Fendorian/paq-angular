@@ -1,24 +1,65 @@
 [
     {
         "id": 1,
-        "linkText": "Home",
+        "translations": {
+            "en": {
+              "linkText": "Home"
+            },
+            "hr": {
+              "linkText": "Početna"
+            },
+            "de": {
+              "linkText": "Startseite"
+            }
+        },
         "link": "/"
        
     },
     {
         "id": 2,
-        "linkText": "Pages",
+        "translations": {
+            "en": {
+              "linkText": "Pages"
+            },
+            "hr": {
+              "linkText": "Stranice"
+            },
+            "de": {
+              "linkText": "Seiten"
+            }
+        },
         "child": true,
         "submenu": [
             {
                 "id": 21,
-                "link": "/about",
-                "linkText": "About us"
+                "translations": {
+                    "en": {
+                      "linkText": "About us"
+                    },
+                    "hr": {
+                      "linkText": "O nama"
+                    },
+                    "de": {
+                      "linkText": "Über uns"
+                    }
+                },
+                "link": "/about"
             },
             {
                 "id": 22,
-                "link": "/faqs",
-                "linkText": "FAQ's"
+                "translations": {
+                    "en": {
+                      "linkText": "FAQ's"
+                    },
+                    "hr": {
+                      "linkText": "Često postavljana pitanja"
+                    },
+                    "de": {
+                      "linkText": "Häufig gestellte Fragen"
+                    }
+                  },
+                "link": "/faqs"
+                
             }
         ]
     },
@@ -42,6 +83,16 @@
     {
         "id": 4,
         "link": "/contact",
-        "linkText": "Contact"
+        "translations": {
+            "en": {
+              "linkText": "Contact"
+            },
+            "hr": {
+              "linkText": "Kontakt"
+            },
+            "de": {
+              "linkText": "Contacte"
+            }
+          }
     }
 ]

@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 import { BreadcrumbModule } from 'angular-crumbs';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { FormsModule } from '@angular/forms';
+
 
 import { HeaderOneComponent } from './header-one/header-one.component';
 import { HeaderTwoComponent } from './header-two/header-two.component';
@@ -28,7 +30,8 @@ import { RelatedshopComponent } from './relatedshop/relatedshop.component';
     RouterModule,
     NgbModule,
     BreadcrumbModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    FormsModule
   ],
   exports: [HeaderOneComponent, HeaderTwoComponent, HeaderThreeComponent, BreadcrumbComponent, FooterComponent, BrandsComponent, CtaComponent, ServicesidebarComponent, BlogsidebarComponent, RelatedpostComponent, ShopsidebarComponent, RelatedshopComponent]
 })

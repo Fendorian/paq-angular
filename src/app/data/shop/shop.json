@@ -1,7 +1,11 @@
 [
     {
         "id": 1,
-        "title": "Čaše 0,2 L CE 100/1 EXCITE bijele",
+        "title": {
+            "en": "Cups 0,2 L CE 100/1 EXCITE white",
+            "hr": "Čaše 0,2 L CE 100/1 EXCITE bijele",
+            "de": "Koffer 0,2 L CE 100/1 EXCITE weiß"
+          },
         "image": [
             "assets/img/shop/0,2LCEbijele.jpg"
         ],

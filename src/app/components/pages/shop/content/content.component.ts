@@ -57,9 +57,17 @@ export class ContentComponent implements AfterContentInit {
       this.setLanguageContent(language);
     });
   }
+  updateLanguageContent(language: string) {
+    this.shopblock.forEach(item => {
+      item.localizedTitle = item.title[language];
+      item.localizedShortDescription = item.shortdescription[language];
+    });
+  }
+
   sorting: string = "Sorting";
   default: string = "Default";
   byName: string = "By Name";
+
   setLanguageContent(language: string){
     switch (language) {
          case 'en':
@@ -84,6 +92,8 @@ export class ContentComponent implements AfterContentInit {
            break;
        }
        }
+   
+    
   ngAfterContentInit(): void {
     this.setCategory(this.router.snapshot.params.catId);
     this.setTag(this.router.snapshot.params.tagId);

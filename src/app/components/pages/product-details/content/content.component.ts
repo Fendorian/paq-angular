@@ -2,6 +2,7 @@ import { Component, AfterContentInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import shop from '../../../../data/shop/shop.json';
 import authors from '../../../../data/team.json';
+import { LanguageService } from '../../../../language-service.service';
 
 @Component({
   selector: 'app-content',
@@ -10,7 +11,7 @@ import authors from '../../../../data/team.json';
 })
 export class ContentComponent implements AfterContentInit {
 
-  constructor(private router: ActivatedRoute) { }
+  constructor(private router: ActivatedRoute,private languageService: LanguageService) { }
   public shopdetails = shop;
   public authors = authors;
 
@@ -20,6 +21,46 @@ export class ContentComponent implements AfterContentInit {
     });
     return elems;
   }
+  ngOnInit(): void {
+    this.languageService.currentLanguage.subscribe((language) => {
+      this.setLanguageContent(language);
+    });
+  }
+  updateLanguageContent(language: string) {
+    this.shopdetails.forEach(item => {
+      item.localizedTitle = item.title[language];
+    });
+  }
+
+  sorting: string = "Sorting";
+  default: string = "Default";
+  byName: string = "By Name";
+
+  setLanguageContent(language: string){
+    switch (language) {
+         case 'en':
+           this.sorting = "Sorting";
+           this.default = "Default";
+           this.byName = "By Name";
+           break;
+         case 'hr':
+           this.sorting = "Sortiranje";
+           this.default = "Obicne vrednosti";
+           this.byName = "Po nazivu";
+           break;
+         case 'de':
+           this.sorting = "Sortierung"
+           this.default = "Standard"
+           this.byName = "Namentlich"
+           break;
+         default:
+           this.sorting = "Sorting";
+           this.default = "Default";
+           this.byName = "By Name";
+           break;
+       }
+       this.updateLanguageContent(language);
+       }
 
   public setPost(id: any) {
     this.shopdetails = shop.filter((item: { id: any; }) => { return item.id == id });

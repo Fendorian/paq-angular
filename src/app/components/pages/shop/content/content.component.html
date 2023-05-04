@@ -27,7 +27,8 @@
                                 <img  [src]="item.image[0]" [alt]="item.title">
                             </div>
                             <div class="product-desc">
-                                <h5 class="title"><a routerLink="/product-details/{{item.id}}">{{item.title}}</a></h5>
+                                <!-- <h5 class="title"><a routerLink="/product-details/{{item.id}}">{{item.title}}</a></h5> -->
+                                <h5 class="title"><a routerLink="/product-details/{{item.id}}">{{item.localizedTitle}}</a></h5>
                             </div>
                         </div>
                     </div>

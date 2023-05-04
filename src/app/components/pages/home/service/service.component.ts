@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import service from '../../../../data/service.json';
+import { LanguageService } from '../../../../language-service.service';
 
 @Component({
   selector: 'app-service',
@@ -8,10 +9,8 @@ import service from '../../../../data/service.json';
 })
 export class ServiceComponent implements OnInit {
 
-  constructor() { }
+  constructor(public languageService: LanguageService) { }
   public service = service;
-
   ngOnInit(): void {
-  }
-
+    };  
 }

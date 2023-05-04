@@ -17,69 +17,34 @@
     },
     {
         "id": 2,
+        "link":"/about",
         "translations": {
             "en": {
-              "linkText": "Pages"
+              "linkText": "About us"
             },
             "hr": {
-              "linkText": "Stranice"
+              "linkText": "O nama"
             },
             "de": {
-              "linkText": "Seiten"
+              "linkText": "Über uns"
             }
-        },
-        "child": true,
-        "submenu": [
-            {
-                "id": 21,
-                "translations": {
-                    "en": {
-                      "linkText": "About us"
-                    },
-                    "hr": {
-                      "linkText": "O nama"
-                    },
-                    "de": {
-                      "linkText": "Über uns"
-                    }
-                },
-                "link": "/about"
-            },
-            {
-                "id": 22,
-                "translations": {
-                    "en": {
-                      "linkText": "FAQ's"
-                    },
-                    "hr": {
-                      "linkText": "Često postavljana pitanja"
-                    },
-                    "de": {
-                      "linkText": "Häufig gestellte Fragen"
-                    }
-                  },
-                "link": "/faqs"
-                
-            }
-        ]
-    },
+            
+        }},
     {
         "id": 3,
-        "linkText": "Shop",
-        "child": true,
-        "submenu": [
-            {
-                "id": 31,
-                "link": "/shop",
-                "linkText": "Shop"
-            },
-            {
-                "id": 32,
-                "link": "/product-details/1",
-                "linkText": "Product Details"
-            }
-        ]
-    },
+        "link":"/shop",
+        "translations": {
+          "en": {
+            "linkText": "Products"
+          },
+          "hr": {
+            "linkText": "Produkti"
+          },
+          "de": {
+            "linkText": "Produkte"
+          }
+          
+      }},
     {
         "id": 4,
         "link": "/contact",

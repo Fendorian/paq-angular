@@ -38,6 +38,13 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="language-dropdown ">
+                        <select class="" [value]="selectedLanguage" (change)="changeLanguage($event.target.value)">
+                            <option class="menu-items" value="en">English</option>
+                            <option class="menu-items" value="hr">Croatian</option>
+                            <option class="menu-items" value="de">German</option>
+                          </select>
+                      </div>
                     <!-- Pushed Item -->
                     <div class="nav-pushed-item"></div>
                 </div>
@@ -46,17 +53,14 @@
                 <div class="navbar-extra d-lg-block d-flex align-items-center">
                     <!-- Navbtn -->
                     <div class="navbar-btn nav-push-item">
-                        <a class="main-btn main-btn-3" routerLink="/contact">Consulting Now</a>
                         <!-- Add this block for the language dropdown inside the 'navbar-extra' div -->
-<div class="language-dropdown">
+<!-- <div class="language-dropdown">
     <select [value]="selectedLanguage" (change)="changeLanguage($event.target.value)">
         <option value="en">English</option>
         <option value="hr">Croatian</option>
         <option value="de">German</option>
       </select>
-      
-      
-  </div>
+  </div> -->
   
                     </div>
                     <!-- Navbar Toggler -->

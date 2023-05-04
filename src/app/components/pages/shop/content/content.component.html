@@ -4,20 +4,13 @@
             <div class="col-12 order-1">
                 <div class="row shop-top-bar justify-content-between">
                     <div class="col-lg-3 col-6 col-tiny-12">
-                        <!-- <div class="product-search">
-                            <form>
-                                <input type="search" placeholder="Search Keywords">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
-                        </div> -->
                     </div>
                     <div class="col-lg-2 col-6 col-tiny-12">
                         <div class="product-shorting">
                             <select>
-                                <option value="0" selected>Sort by</option>
-                                <option value="1">Deafult</option>
-                                <option value="2">By Name</option>
-                                <!-- <option value="3">By Price</option> -->
+                                <option value="0" selected>{{ sorting }}</option>
+                                <option value="1">{{ default }}</option>
+                                <option value="2">{{ byName }}</option>
                             </select>
                         </div>
                     </div> 
@@ -32,23 +25,9 @@
                         <div class="single-product">
                             <div routerLink="/product-details/{{item.id}}" class="product-img">
                                 <img  [src]="item.image[0]" [alt]="item.title">
-                                <!-- <div class="product-action">
-                                    <a href="#"><i class="far fa-shopping-cart"></i></a>
-                                    <a href="#"><i class="far fa-heart"></i></a>
-                                </div> -->
                             </div>
                             <div class="product-desc">
-                                <!-- <ul class="rating">
-                                    <ngb-rating [max]="5" [(rate)]="item.rating" [readonly]="true">
-                                        <ng-template let-fill="fill" let-index="index">
-                                            <li>
-                                                <i class="fas fa-star" [class.active]="fill === 100"></i>
-                                            </li>
-                                        </ng-template>
-                                    </ngb-rating>
-                                </ul> -->
                                 <h5 class="title"><a routerLink="/product-details/{{item.id}}">{{item.title}}</a></h5>
-                                <!-- <span class="price">${{item.price | number:'1.2-2'}}</span> -->
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import { Component, AfterContentInit } from '@angular/core';
+import { LanguageService } from '../../../../language-service.service';
 import { ActivatedRoute } from '@angular/router'; 
 import shop from '../../../../data/shop/shop.json';
 
@@ -14,7 +15,7 @@ export class ContentComponent implements AfterContentInit {
 
   // pagination
   page: number = 1; 
-  constructor(private router: ActivatedRoute) { }
+  constructor(private router: ActivatedRoute,private languageService: LanguageService) { }
   public shopblock = shop;
   public shopcategory = shopcategory;
   public shoptags = shoptags;
@@ -51,6 +52,38 @@ export class ContentComponent implements AfterContentInit {
       this.shopblock = postsByTags;
     } 
   }
+  ngOnInit(): void {
+    this.languageService.currentLanguage.subscribe((language) => {
+      this.setLanguageContent(language);
+    });
+  }
+  sorting: string = "Sorting";
+  default: string = "Default";
+  byName: string = "By Name";
+  setLanguageContent(language: string){
+    switch (language) {
+         case 'en':
+           this.sorting = "Sorting";
+           this.default = "Default";
+           this.byName = "By Name";
+           break;
+         case 'hr':
+           this.sorting = "Sortiranje";
+           this.default = "Obicne vrednosti";
+           this.byName = "Po nazivu";
+           break;
+         case 'de':
+           this.sorting = "Sortierung"
+           this.default = "Standard"
+           this.byName = "Namentlich"
+           break;
+         default:
+           this.sorting = "Sorting";
+           this.default = "Default";
+           this.byName = "By Name";
+           break;
+       }
+       }
   ngAfterContentInit(): void {
     this.setCategory(this.router.snapshot.params.catId);
     this.setTag(this.router.snapshot.params.tagId);

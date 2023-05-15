@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import service from '../../../../data/service.json';
 import { LanguageService } from '../../../../language-service.service';
 
 @Component({
@@ -9,6 +10,7 @@ import { LanguageService } from '../../../../language-service.service';
 export class AboutComponent implements OnInit {
 
   constructor(public languageService: LanguageService) { }
+  public service = service;
   paragraph: string;
   buttonText: string;
   ngOnInit(): void {

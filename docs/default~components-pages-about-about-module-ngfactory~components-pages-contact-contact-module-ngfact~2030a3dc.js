@@ -349,7 +349,7 @@ class SharedModule {
 /*! exports provided: 0, 1, 2, 3, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"translations\":{\"en\":{\"linkText\":\"Home\"},\"hr\":{\"linkText\":\"Početna\"},\"de\":{\"linkText\":\"Startseite\"}},\"link\":\"/\"},{\"id\":2,\"link\":\"/about\",\"translations\":{\"en\":{\"linkText\":\"About us\"},\"hr\":{\"linkText\":\"O nama\"},\"de\":{\"linkText\":\"Über uns\"}}},{\"id\":3,\"link\":\"/shop\",\"translations\":{\"en\":{\"linkText\":\"Products\"},\"hr\":{\"linkText\":\"Produkti\"},\"de\":{\"linkText\":\"Produkte\"}}},{\"id\":4,\"link\":\"/contact\",\"translations\":{\"en\":{\"linkText\":\"Contact\"},\"hr\":{\"linkText\":\"Kontakt\"},\"de\":{\"linkText\":\"Contacte\"}}}]");
+module.exports = JSON.parse("[{\"id\":1,\"translations\":{\"en\":{\"linkText\":\"Home\"},\"hr\":{\"linkText\":\"Početna\"},\"de\":{\"linkText\":\"Startseite\"}},\"link\":\"/\"},{\"id\":2,\"link\":\"/about\",\"translations\":{\"en\":{\"linkText\":\"About us\"},\"hr\":{\"linkText\":\"O nama\"},\"de\":{\"linkText\":\"Über uns\"}}},{\"id\":3,\"link\":\"/shop\",\"translations\":{\"en\":{\"linkText\":\"Products\"},\"hr\":{\"linkText\":\"Produkti\"},\"de\":{\"linkText\":\"Produkte\"}}},{\"id\":4,\"link\":\"/contact\",\"translations\":{\"en\":{\"linkText\":\"Contact\"},\"hr\":{\"linkText\":\"Kontakt\"},\"de\":{\"linkText\":\"Kontakt\"}}}]");
 
 /***/ }),
 

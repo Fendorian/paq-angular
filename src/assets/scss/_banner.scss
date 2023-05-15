@@ -72,10 +72,11 @@
 				font-size: 18px;
 				font-weight: 700;
 				color: $white;
-				letter-spacing: 12px;
+				letter-spacing: 1px;
 				margin-bottom: 30px;
 				position: relative;
 				padding-left: 45px;
+				line-height: 22px;
 
 				&::before {
 					position: absolute;

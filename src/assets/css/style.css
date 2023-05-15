@@ -1766,7 +1766,7 @@ header.header-three .header-nav::before {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  letter-spacing: 12px;
+  letter-spacing: 1px;
   margin-bottom: 30px;
   position: relative;
   padding-left: 45px;
@@ -1789,7 +1789,7 @@ header.header-three .header-nav::before {
 @media (max-width: 991px) {
   .banner-section .single-banner .banner-content .promo-text {
     font-size: 16px;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
   }
 }
 

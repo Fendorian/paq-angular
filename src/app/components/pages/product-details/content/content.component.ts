@@ -11,7 +11,10 @@ import { LanguageService } from '../../../../language-service.service';
 })
 export class ContentComponent implements AfterContentInit {
 
-  constructor(private router: ActivatedRoute,private languageService: LanguageService) { }
+  public currentLanguage: string;
+  constructor(private router: ActivatedRoute,private languageService: LanguageService) { 
+    this.currentLanguage = this.languageService.getCurrentLanguage(); 
+  }
   public shopdetails = shop;
   public authors = authors;
 
@@ -23,6 +26,7 @@ export class ContentComponent implements AfterContentInit {
   }
   ngOnInit(): void {
     this.languageService.currentLanguage.subscribe((language) => {
+      this.currentLanguage = language;
       this.setLanguageContent(language);
     });
   }
@@ -31,10 +35,12 @@ export class ContentComponent implements AfterContentInit {
       item.localizedTitle = item.title[language];
     });
   }
+  
 
   sorting: string = "Sorting";
   default: string = "Default";
   byName: string = "By Name";
+  description: string = "Description";
 
   setLanguageContent(language: string){
     switch (language) {
@@ -42,21 +48,25 @@ export class ContentComponent implements AfterContentInit {
            this.sorting = "Sorting";
            this.default = "Default";
            this.byName = "By Name";
+           this.description = "Description";
            break;
          case 'hr':
            this.sorting = "Sortiranje";
            this.default = "Obicne vrednosti";
            this.byName = "Po nazivu";
+           this.description = "Opis";
            break;
          case 'de':
            this.sorting = "Sortierung"
            this.default = "Standard"
            this.byName = "Namentlich"
+           this.description = "Beschreibung";
            break;
          default:
            this.sorting = "Sorting";
            this.default = "Default";
            this.byName = "By Name";
+           this.description = "Description";
            break;
        }
        this.updateLanguageContent(language);
@@ -110,5 +120,6 @@ export class ContentComponent implements AfterContentInit {
   ngAfterContentInit(): void {
     this.setPost(this.router.snapshot.params.id);
   }
+  
 
 }

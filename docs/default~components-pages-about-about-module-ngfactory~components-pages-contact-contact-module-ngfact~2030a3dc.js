@@ -24,6 +24,9 @@ class LanguageService {
         this.languageSource.next(language);
         localStorage.setItem('language', language);
     }
+    getCurrentLanguage() {
+        return this.languageSource.getValue();
+    }
     getStoredLanguage() {
         return localStorage.getItem('language');
     }

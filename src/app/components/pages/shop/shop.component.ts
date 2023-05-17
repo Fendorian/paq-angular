@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LanguageService } from '../../../language-service.service';
 
 @Component({
   selector: 'app-shop',

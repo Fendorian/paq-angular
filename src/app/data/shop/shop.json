@@ -9,309 +9,420 @@
         "image": [
             "assets/img/shop/0,2LCEbijele.jpg"
         ],
-        "rating": 5,
-        "price": 0,
         "category": [
             1
         ],
-        "tags": [
-            1,
-            2,
-            3
-        ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651203"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
-            }
-        ],
-        "reviews":[
-            {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
             },
             {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,5 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "100,5 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
         ]
     },
     {
         "id": 2,
-        "title": "Čaše 0,2 L CE 100/1 EXCITE transparent",
+        "title": {
+            "en": "Cups 0,2 L CE 100/1 EXCITE transparentna",
+            "hr": "Čaše 0,2 L CE 100/1 EXCITE transparent",
+            "de": "Koffer 0,2 L CE 100/1 EXCITE transparent"
+          },
         "image": [
             "assets/img/shop/0,2L CE transp.jpg"
         ],
-        "rating": 4,
-        "price": 25.59,
         "category": [
             1
         ],
-        "tags": [
-            4,
-            5,
-            6
-        ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651234"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "Transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,5 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "100,5 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ],
-        "reviews":[
-            {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
-            },
-            {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
-            }
-        ]
+        ] 
     },
     {
         "id": 3,
-        "title": "Smart Man Jacket",
+        "title": {
+            "en": "Cups 200 cc 2x50 ENJOY",
+            "hr": "Čaše 200 cc 2x50 ENJOY",
+            "de": "Koffer 200 cc 2x50 ENJOY"
+          },
         "image": [
-            "assets/img/shop/03.png",
-            "assets/img/shop/04.png",
-            "assets/img/shop/05.png"
+            "assets/img/shop/2x50enjoy2.jpg",
+            "assets/img/shop/2x50enjoy.jpg"
         ],
-        "rating": 3,
-        "price": 25.59,
         "category": [
-            5,
-            6
-        ],
-        "tags": [
-            7,
-            8,
             1
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651234"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "Transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,5 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "100,5 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ],
-        "reviews":[
-            {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
-            },
-            {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
-            }
-        ]
+        ] 
+       
     },
     {
         "id": 4,
-        "title": "Smart Man Jacket",
+        "title": {
+            "en": "Cups 200 cc 100/1 ENJOY",
+            "hr": "Čaše 200 cc 100/1 ENJOY",
+            "de": "Koffer 200 cc 100/1 ENJOY"
+          },
         "image": [
-            "assets/img/shop/04.png",
-            "assets/img/shop/05.png",
-            "assets/img/shop/06.png"
+            "assets/img/shop/100x1enjoy.jpg",
+            "assets/img/shop/100x1enjoy2.jpg"
         ],
-        "rating": 4,
-        "price": 25.59,
         "category": [
             1
         ],
-        "tags": [
-            2,
-            3,
-            4
-        ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651234"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "Transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,5 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "100,5 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ],
-        "reviews":[
-            {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
-            },
-            {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
-            }
-        ]
+        ] 
     },
     {
         "id": 5,
-        "title": "Smart Man Jacket",
+        "title": {
+            "en": "Cups 200 cc 50/1 ENJOY",
+            "hr": "Čaše 200 cc 50/1 ENJOY",
+            "de": "Koffer 200 cc 50/1 ENJOY"
+          },
         "image": [
-            "assets/img/shop/05.png",
-            "assets/img/shop/06.png",
-            "assets/img/shop/07.png"
+            "assets/img/shop/200x50enjoy.jpg",
+            "assets/img/shop/200x50enjoy2.jpg"
         ],
-        "rating": 5,
-        "price": 25.59,
         "category": [
-            2,
-            3
-        ],
-        "tags": [
-            5,
-            6,
-            7
+            1
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651234"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "Transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,5 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "100,5 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ],
-        "reviews":[
-            {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
-            },
-            {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
-            }
-        ]
+        ] 
     },
     {
         "id": 6,
-        "title": "Smart Man Jacket",
+        "title": {
+            "en": "Cups 200 cc 50/1 ORANGE",
+            "hr": "Čaše 200 cc 50/1 NARANČA",
+            "de": "Koffer 200 cc 50/1 ORANGE"
+          },
         "image": [
-            "assets/img/shop/06.png",
-            "assets/img/shop/07.png",
-            "assets/img/shop/08.png"
+            "assets/img/shop/cupsORANGE.jpg",
+            "assets/img/shop/cupsORANGE1.jpg"
         ],
-        "rating": 4,
-        "price": 25.59,
         "category": [
-            4,
-            5
-        ],
-        "tags": [
-            8,
-            1,
-            2
+            1
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
                 "title": "Weight",
@@ -325,52 +436,24 @@
                 "title": "Color",
                 "text": "Red, Black, Blue"
             }
-        ],
-        "reviews":[
-            {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
-            },
-            {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
-            }
         ]
+       
     },
     {
         "id": 7,
-        "title": "Smart Man Jacket",
+        "title": {
+            "en": "Cups 200 cc 50/1 YELLOW",
+            "hr": "Čaše 200 cc 50/1 ŽUTA",
+            "de": "Koffer 200 cc 50/1 GELB"
+          },
         "image": [
-            "assets/img/shop/07.png",
-            "assets/img/shop/08.png",
-            "assets/img/shop/09.png"
+            "assets/img/shop/cupsYELLOW.jpg",
+            "assets/img/shop/cupsYELLOW2.jpg"
         ],
-        "rating": 3,
-        "price": 25.59,
         "category": [
-            6,
-            7
-        ],
-        "tags": [
-            3,
-            4,
-            5
+            1
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
                 "title": "Weight",
@@ -383,53 +466,24 @@
             {
                 "title": "Color",
                 "text": "Red, Black, Blue"
-            }
-        ],
-        "reviews":[
-            {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
-            },
-            {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
             }
         ]
     },
     {
         "id": 8,
-        "title": "Smart Man Jacket",
+        "title": {
+            "en": "Cups 200 cc 50/1 BLUE",
+            "hr": "Čaše 200 cc 50/1 PLAVA",
+            "de": "Koffer 200 cc 50/1 BLAU"
+          },
         "image": [
-            "assets/img/shop/08.png",
-            "assets/img/shop/09.png",
-            "assets/img/shop/01.png"
+            "assets/img/shop/cupsBLUE.jpg",
+            "assets/img/shop/cupsBLUE1.jpg"
         ],
-        "rating": 4,
-        "price": 25.59,
         "category": [
-            1,
-            2
-        ],
-        "tags": [
-            6,
-            7,
-            8
+            1
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
                 "title": "Weight",
@@ -442,53 +496,23 @@
             {
                 "title": "Color",
                 "text": "Red, Black, Blue"
-            }
-        ],
-        "reviews":[
-            {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
-            },
-            {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
             }
         ]
     },
     {
         "id": 9,
-        "title": "Smart Man Jacket",
+        "title": {
+            "en": "Cups 200 cc 50/1 LIME",
+            "hr": "Čaše 200 cc 50/1 LIMETA",
+            "de": "Koffer 200 cc 50/1 KALK"
+          },
         "image": [
-            "assets/img/shop/09.png",
-            "assets/img/shop/01.png",
-            "assets/img/shop/02.png"
+            "assets/img/shop/cupsLIME.jpg"
         ],
-        "rating": 5,
-        "price": 25.59,
         "category": [
-            3,
-            4
-        ],
-        "tags": [
-            1,
-            2,
-            3
+            1
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "productdescription": "<p> Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur xcepteur sint occaecat cupidatat non proident, sunt.</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cdolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudinInteger in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper,</p>",
         "additional": [
             {
                 "title": "Weight",
@@ -502,29 +526,869 @@
                 "title": "Color",
                 "text": "Red, Black, Blue"
             }
+        ]
+    },
+    {
+        "id": 10,
+        "title": {
+            "en": "Cups 350 cc 50/1 BUBBLE",
+            "hr": "Čaše 350 cc 50/1 BUBBLE",
+            "de": "Koffer 350 cc 50/1 BUBBLE"
+          },
+        "image": [
+            "assets/img/shop/cupsBUUBLE.jpg",
+            "assets/img/shop/cupsBUUBLE1.jpg"
         ],
-        "reviews":[
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
             {
-                "id":1,
-                "user":[1],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[
-                    {
-                        "id":1.1,
-                        "user":[2],
-                        "rating":5,
-                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
-                    }
-                ]
+                "title": "Weight",
+                "text": "6.59 kg"
             },
             {
-                "id":2,
-                "user":[3],
-                "rating":4,
-                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
-                "replies":[]
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": {
+            "en": "Cups 350 cc 50/1 NECTAR",
+            "hr": "Čaše 350 cc 50/1 NEKTAR",
+            "de": "Koffer 350 cc 50/1 NEKTAR"
+          },
+        "image": [
+            "assets/img/shop/cupsNECTAR.jpg",
+            "assets/img/shop/cupsNECTAR1.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": {
+            "en": "Injected 0.2 L 10/1",
+            "hr": "Brizgane 0.2 L 10/1",
+            "de": "Gespritzt 0.2 L 10/1"
+          },
+        "image": [
+            "assets/img/shop/brizgane10.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": {
+            "en": "Cups 550 cc 25/1 FAMILY",
+            "hr": "Čaše 550 cc 25/1 FAMILY",
+            "de": "Koffer 550 cc 25/1 FAMILY"
+          },
+        "image": [
+            "assets/img/shop/cups550FAMILY.jpg",
+            "assets/img/shop/cups550FAMILY1.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": {
+            "en": "Cups 550 cc 25/1 FUNS",
+            "hr": "Čaše 550 cc 25/1 FUNS",
+            "de": "Koffer 550 cc 25/1 FUNS"
+          },
+        "image": [
+            "assets/img/shop/cupsFUNS.jpg",
+            "assets/img/shop/cupsFUNS1.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": {
+            "en": "Injected 0.02 - 0.04 l 15/1",
+            "hr": "Brizgane 0.02 - 0.04 l 15/1",
+            "de": "Gespritzt 0.02 - 0.04 15/1"
+          },
+        "image": [
+            "assets/img/shop/brizgane15.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": {
+            "en": "Injected 0.02 - 0.04 l 35/1",
+            "hr": "Brizgane 0.02 - 0.04 l 35/1",
+            "de": "Gespritzt 0.02 - 0.04 35/1"
+          },
+        "image": [
+            "assets/img/shop/brizgane35.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": {
+            "en": "Vending cups 166 cc 100/1 Antistatic",
+            "hr": "Vending čaše 166 cc 100/1 Antistatic",
+            "de": "Verkaufsbecher 166 cc 100/1 Antistatisch"
+          },
+        "image": [
+            "assets/img/shop/antistatic.jpg",
+            "assets/img/shop/antistatic1.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": {
+            "en": "Coffee cups 0.10 l 50/1",
+            "hr": "Šalice za kavu 0,10 l 50/1",
+            "de": "Kaffeetassen 0,10 l 50/1"
+          },
+        "image": [
+            "assets/img/shop/salica010.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "title": {
+            "en": "Fork 10/1",
+            "hr": "Vilica 10/1",
+            "de": "Gabel 10/1"
+          },
+        "image": [
+            "assets/img/shop/vilica10.jpg",
+            "assets/img/shop/vilica101.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "title": {
+            "en": "Fork 20/1",
+            "hr": "Vilica 20/1",
+            "de": "Gabel 20/1"
+          },
+        "image": [
+            "assets/img/shop/vilica20.jpg",
+            "assets/img/shop/vilica201.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "title": {
+            "en": "Fork 50/1",
+            "hr": "Vilica 50/1",
+            "de": "Gabel 50/1"
+          },
+        "image": [
+            "assets/img/shop/salica050.jpg",
+            "assets/img/shop/salica0501.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "title": {
+            "en": "Fork 100/1",
+            "hr": "Vilica 100/1",
+            "de": "Gabel 100/1"
+          },
+        "image": [
+            "assets/img/shop/vilica100.jpg",
+            "assets/img/shop/vilica1001.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "title": {
+            "en": "Fork 100/1 TRANSPARENT",
+            "hr": "Vilica 100/1 TRANSPARENT",
+            "de": "Gabel 100/1 TRANSPARENT"
+          },
+        "image": [
+            "assets/img/shop/vilicatrans.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "title": {
+            "en": "Spoon 10/1",
+            "hr": "Žlica 10/1",
+            "de": "Kaffeetassen 0,10 l 15/1"
+          },
+        "image": [
+            "assets/img/shop/zilica10.jpg",
+            "assets/img/shop/zilica101.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "title": {
+            "en": "Spoon 20/1",
+            "hr": "Žlica 20/1",
+            "de": "Kaffeetassen 0,20 l 15/1"
+          },
+        "image": [
+            "assets/img/shop/salica020.jpg",
+            "assets/img/shop/salica0201.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "title": {
+            "en": "Spoon 50/1",
+            "hr": "Žlica 50/1",
+            "de": "Kaffeetassen 0,50 l 15/1"
+          },
+        "image": [
+            "assets/img/shop/salica050.jpg",
+            "assets/img/shop/salica0501.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "title": {
+            "en": "Spoon 100/1",
+            "hr": "Žlica 100/1",
+            "de": "Kaffeetassen 0,100 l 15/1"
+          },
+        "image": [
+            "assets/img/shop/salica0100.jpg",
+            "assets/img/shop/salica01001.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "title": {
+            "en": "Žlica 10/1 TRANSPARENT",
+            "hr": "Žlica 10/1 TRANSPARENT",
+            "de": "Žlica 10/1 TRANSPARENT"
+          },
+        "image": [
+            "assets/img/shop/zilica10trans.jpg",
+            "assets/img/shop/zilica10trans1.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "title": {
+            "en": "Žlica 2/1 SALAD SET",
+            "hr": "Žlica 2/1 SALAD SET",
+            "de": "Löffel 2/1 SALATSET"
+          },
+        "image": [
+            "assets/img/shop/saladset.jpg",
+            "assets/img/shop/salatset1.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "title": {
+            "en": "Spoon 2/1 CAKE SET",
+            "hr": "Žlica 2/1 CAKE SET",
+            "de": "Löffel 2/1 KUCHENSET"
+          },
+        "image": [
+            "assets/img/shop/cake.jpg",
+            "assets/img/shop/cake1.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "title": {
+            "en": "Dessert spoon 10/1",
+            "hr": "Žlica desertna 10/1",
+            "de": "Dessertlöffel 10/1"
+          },
+        "image": [
+            "assets/img/shop/desert.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "title": {
+            "en": "Espresso spoon 500/1",
+            "hr": "Žlica za espresso 500/1",
+            "de": "Espressolöffel 500/1"
+          },
+        "image": [
+            "assets/img/shop/espresso.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "title": {
+            "en": "Dessert spoon 10/1",
+            "hr": "Žlica za espresso 1000/1",
+            "de": "Dessertlöffel 10/1"
+          },
+        "image": [
+            "assets/img/shop/espresso100.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "title": {
+            "en": "Knife 10/1",
+            "hr": "Nož 10/1",
+            "de": "Messer 10/1"
+          },
+        "image": [
+            "assets/img/shop/noz10.jpg",
+            "assets/img/shop/noz101.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "title": {
+            "en": "Knife 20/1",
+            "hr": "Nož 20/1",
+            "de": "Messer 20/1"
+          },
+        "image": [
+            "assets/img/shop/desertna20.jpg",
+            "assets/img/shop/desertna201.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "title": {
+            "en": "Knife 50/1",
+            "hr": "Nož 50/1",
+            "de": "Messer 50/1"
+          },
+        "image": [
+            "assets/img/shop/noz50.jpg",
+            "assets/img/shop/noz501.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "title": {
+            "en": "Knife 100/1",
+            "hr": "Nož 100/1",
+            "de": "Messer 100/1"
+          },
+        "image": [
+            "assets/img/shop/noz100.jpg",
+            "assets/img/shop/noz1001.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "title": {
+            "en": "Knife 10/1 transparent",
+            "hr": "Nož 10/1 transparent",
+            "de": "Messer 10/1 transparent"
+          },
+        "image": [
+            "assets/img/shop/noz10trans.jpg",
+            "assets/img/shop/noz101trans.jpg"
+        ],
+        "category": [
+            1
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
             }
         ]
     }
+
 ]

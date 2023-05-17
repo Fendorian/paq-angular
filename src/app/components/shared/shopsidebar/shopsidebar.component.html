@@ -2,7 +2,9 @@
     <div class="widget product-cat-widget">
       <h4 class="widget-title">{{ widgetTitle }}</h4>
       <ul>
+        <a href="/shop">Show All</a>
         <li *ngFor="let item of category">
+          
           <a routerLink="/shop/cat/{{item.id}}">{{ getCategoryTitle(item) }}</a>
         </li>
       </ul>

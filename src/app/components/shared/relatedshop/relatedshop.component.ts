@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import shop from '../../../data/shop/shop.json';
+import { LanguageService } from '../../../language-service.service';
 
 @Component({
   selector: 'app-relatedshop',
@@ -8,7 +9,9 @@ import shop from '../../../data/shop/shop.json';
 })
 export class RelatedshopComponent implements OnInit {
 
-  constructor() { }
+   constructor(private languageService: LanguageService) { 
+  }
+  relatedText: string;
   public shopblock = shop;
   settings = {
     slidesToShow: 4,
@@ -33,7 +36,21 @@ export class RelatedshopComponent implements OnInit {
     ]
   };
 
-  ngOnInit(): void {
+    ngOnInit(): void {
+    this.languageService.currentLanguage.subscribe((language) => {
+      this.setParagraphText(language);
+    });  
   }
+  setParagraphText(language: string): void {
+  if (language === 'en') {
+    this.relatedText = 'Related Products';
+  } else if (language === 'hr') {
+    this.relatedText = 'Slicni Proizvodi.';
+  } else if (language === 'de') {
+    this.relatedText = 'Verwandte Produkte.';
+  } else {
+    this.relatedText = '';
+  }
+}
 
 }

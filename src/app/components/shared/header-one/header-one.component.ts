@@ -3,6 +3,7 @@ import { DOCUMENT } from '@angular/common';
 import navigation from '../../../data/navigation.json';
 import { FooterComponent } from '../../shared/footer/footer.component';
 import { LanguageService } from '../../../language-service.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header-one',
@@ -13,7 +14,8 @@ export class HeaderOneComponent implements OnInit {
 
   constructor(@Inject(DOCUMENT) private document: Document,
     @Inject(LOCALE_ID) private locale: string,
-    private languageService: LanguageService
+    private languageService: LanguageService,
+    private router: Router // Inject the Router
   ) { }
 
   selectedLanguage$ = this.languageService.currentLanguage;
@@ -35,6 +37,13 @@ export class HeaderOneComponent implements OnInit {
   changeLanguage(lang: string) {
     this.languageService.changeLanguage(lang);
     localStorage.setItem('language', lang);
+    if (this.router.url.includes('/shop')) {
+      this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+      const currentUrl = this.router.url;
+      this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+        this.router.navigateByUrl(currentUrl);
+      });
+    }
   }
   
   

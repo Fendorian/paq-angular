@@ -1,6 +1,6 @@
 import { Component, AfterContentInit } from '@angular/core';
 import { LanguageService } from '../../../../language-service.service';
-import { ActivatedRoute } from '@angular/router'; 
+import { ActivatedRoute, Router } from '@angular/router'; 
 import shop from '../../../../data/shop/shop.json';
 
 import shopcategory from '../../../../data/shop/shopcategory.json'
@@ -15,7 +15,7 @@ export class ContentComponent implements AfterContentInit {
 
   // pagination
   page: number = 1; 
-  constructor(private router: ActivatedRoute,private languageService: LanguageService) { }
+  constructor(private router: Router,private route: ActivatedRoute,private languageService: LanguageService) { }
   public shopblock = shop;
   public shopcategory = shopcategory;
   public shoptags = shoptags;
@@ -57,12 +57,26 @@ export class ContentComponent implements AfterContentInit {
       this.setLanguageContent(language);
     });
   }
+  // updateLanguageContent(language: string) {
+  //   this.shopblock.forEach(item => {
+  //     item.localizedTitle = item.title[language];
+  //     item.localizedShortDescription = item.shortdescription[language];
+  //   });
+  // }
   updateLanguageContent(language: string) {
     this.shopblock.forEach(item => {
-      item.localizedTitle = item.title[language];
-      item.localizedShortDescription = item.shortdescription[language];
+      if (typeof item.title === 'object') {
+        item.localizedTitle = item.title[language];
+      }
+      if (typeof item.shortdescription === 'object') {
+        item.localizedShortDescription = item.shortdescription[language];
+      }
     });
   }
+  
+  
+  
+  
 
   sorting: string = "Sorting";
   default: string = "Default";
@@ -91,13 +105,21 @@ export class ContentComponent implements AfterContentInit {
            this.byName = "By Name";
            break;
        }
+       this.route.queryParams.subscribe(params => {
+        const queryParams = { ...params };
+        queryParams.lang = language;
+        this.router.navigate([], {
+          relativeTo: this.route,
+          queryParams: queryParams,
+          queryParamsHandling: 'merge',
+        });
+      });
        }
-   
-    
   ngAfterContentInit(): void {
-    this.setCategory(this.router.snapshot.params.catId);
-    this.setTag(this.router.snapshot.params.tagId);
+    this.setCategory(this.route.snapshot.params.catId);
+    this.setTag(this.route.snapshot.params.tagId);
     this.setPosts();
+    this.updateLanguageContent(this.languageService.getCurrentLanguage());
   }
 
 }

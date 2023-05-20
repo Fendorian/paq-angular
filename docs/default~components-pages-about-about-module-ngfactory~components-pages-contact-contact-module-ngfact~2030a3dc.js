@@ -238,7 +238,7 @@ function View_HeaderOneComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_
 function View_HeaderOneComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-header-one", [], null, [["window", "scroll"]], function (_v, en, $event) { var ad = true; if (("window:scroll" === en)) {
         var pd_0 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 1).onWindowScroll($event) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, View_HeaderOneComponent_0, RenderType_HeaderOneComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _header_one_component__WEBPACK_IMPORTED_MODULE_5__["HeaderOneComponent"], [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"], _language_service_service__WEBPACK_IMPORTED_MODULE_6__["LanguageService"]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+    } return ad; }, View_HeaderOneComponent_0, RenderType_HeaderOneComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _header_one_component__WEBPACK_IMPORTED_MODULE_5__["HeaderOneComponent"], [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"], _language_service_service__WEBPACK_IMPORTED_MODULE_6__["LanguageService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 var HeaderOneComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-header-one", _header_one_component__WEBPACK_IMPORTED_MODULE_5__["HeaderOneComponent"], View_HeaderOneComponent_Host_0, {}, {}, []);
 
 
@@ -259,10 +259,12 @@ __webpack_require__.r(__webpack_exports__);
 var _data_navigation_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../data/navigation.json */ "iNPx", 1);
 
 class HeaderOneComponent {
-    constructor(document, locale, languageService) {
+    constructor(document, locale, languageService, router // Inject the Router
+    ) {
         this.document = document;
         this.locale = locale;
         this.languageService = languageService;
+        this.router = router;
         this.selectedLanguage$ = this.languageService.currentLanguage;
         this.selectedLanguage = localStorage.getItem('language') || 'en';
         this.navigation = _data_navigation_json__WEBPACK_IMPORTED_MODULE_0__;
@@ -285,6 +287,13 @@ class HeaderOneComponent {
     changeLanguage(lang) {
         this.languageService.changeLanguage(lang);
         localStorage.setItem('language', lang);
+        if (this.router.url.includes('/shop')) {
+            this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+            const currentUrl = this.router.url;
+            this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+                this.router.navigateByUrl(currentUrl);
+            });
+        }
     }
     translateNavigation() {
         this.navigation = _data_navigation_json__WEBPACK_IMPORTED_MODULE_0__.map(item => {

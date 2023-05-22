@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import shop from '../../../../data/shop/shop.json';
 import authors from '../../../../data/team.json';
 import { LanguageService } from '../../../../language-service.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-content',
@@ -12,6 +13,7 @@ import { LanguageService } from '../../../../language-service.service';
 export class ContentComponent implements AfterContentInit {
 
   public currentLanguage: string;
+  private paramMapSubscription: Subscription;
   constructor(private router: ActivatedRoute,private languageService: LanguageService) { 
     this.currentLanguage = this.languageService.getCurrentLanguage(); 
   }
@@ -24,10 +26,23 @@ export class ContentComponent implements AfterContentInit {
     });
     return elems;
   }
+  // ngOnInit(): void {
+  //   this.languageService.currentLanguage.subscribe((language) => {
+  //     this.currentLanguage = language;
+  //     this.setLanguageContent(language);
+  //   });
+
+    
+  // }
   ngOnInit(): void {
     this.languageService.currentLanguage.subscribe((language) => {
       this.currentLanguage = language;
       this.setLanguageContent(language);
+    });
+
+    this.paramMapSubscription = this.router.paramMap.subscribe(params => {
+      const id = params.get('id');
+      this.setPost(id);
     });
   }
   updateLanguageContent(language: string) {
@@ -71,7 +86,11 @@ export class ContentComponent implements AfterContentInit {
        }
        this.updateLanguageContent(language);
        }
-
+       ngOnDestroy(): void {
+        if (this.paramMapSubscription) {
+          this.paramMapSubscription.unsubscribe();
+        }
+      }
   public setPost(id: any) {
     this.shopdetails = shop.filter((item: { id: any; }) => { return item.id == id });
   }
@@ -120,6 +139,7 @@ export class ContentComponent implements AfterContentInit {
   ngAfterContentInit(): void {
     this.setPost(this.router.snapshot.params.id);
   }
+  
   
 
 }

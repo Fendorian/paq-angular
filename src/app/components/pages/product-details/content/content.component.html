@@ -25,8 +25,6 @@
                 <div class="col-lg-4">
                     <div class="product-summary">
                         <h3 class="product-name">{{item.localizedTitle}}</h3>
-                        <!-- <div class="short-description" [innerHtml]="item.shortdescription"> -->
-                        <!-- </div> -->
                         <h4 class="content-description-title">{{description}}</h4>
                           <div class="additional-info">
                                 <table>
@@ -40,32 +38,6 @@
                          </div>
                     </div>
                 </div>
-                <!-- <div class="col-12">
-                    <div class="product-details-tab">
-                        <div class="tab-filter-nav">
-                            <div ngbNav #nav="ngbNav" class="nav nav-tabs" id="nav-tab" role="tablist"> 
-                                <li [ngbNavItem]="2">
-                                    <a ngbNavLink class="border-0">
-                                        {{ description }}
-                                    </a>
-                                    <ng-template ngbNavContent>
-                                        <div class="additional-info">
-                                            <table>
-                                                <tbody>
-                                                    <tr *ngFor="let data of item.additional">
-                                                        <th>{{data.title[currentLanguage]}}</th>
-                                                        <td>{{data.text}}</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </ng-template>
-                                </li>
-                            </div>
-                        </div>
-                        <div [ngbNavOutlet]="nav"></div>
-                    </div>
-                </div> -->
             </div>
         </div>
         <app-relatedshop></app-relatedshop>

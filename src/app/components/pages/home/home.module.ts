@@ -17,11 +17,12 @@ import { VideoComponent } from './video/video.component';
 import { FeaturesComponent } from './features/features.component';
 import { WhyusComponent } from './whyus/whyus.component';
 import { FactsComponent } from './facts/facts.component';
-import { TeamComponent } from './team/team.component'
+import { TeamComponent } from './team/team.component';
+import { FootergifComponent } from './footergif/footergif.component'
 
 
 @NgModule({
-  declarations: [HomeComponent, BlogpostComponent, TestimonialsComponent, SkillsComponent, BannerComponent, AboutComponent, ServiceComponent, VideoComponent, FeaturesComponent, WhyusComponent, FactsComponent, TeamComponent],
+  declarations: [HomeComponent, BlogpostComponent, TestimonialsComponent, SkillsComponent, BannerComponent, AboutComponent, ServiceComponent, VideoComponent, FeaturesComponent, WhyusComponent, FactsComponent, TeamComponent, FootergifComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,

@@ -42,17 +42,17 @@ export class BannerComponent implements OnInit {
 
   setBannerContent(language: string) {
     const enBanner = {
-      img: "assets/img/banner/01.jpg",
+      img: "assets/img/banner/topslider.jpg",
       subtitle: "PAQ is one of the leading manufacturers of PS and PP cups for the food industry in the region.",
       title: "Visit our digital product world."
     };
     const hrBanner = {
-      img: "assets/img/banner/01.jpg",
+      img: "assets/img/banner/topslider.jpg",
       subtitle: "Posjetite naš svijet digitalnih proizvoda.",
       title: "Croatian Making Difference <br> Growth Your Business <br> With Modern Ideas"
     };
     const deBanner = {
-      img: "assets/img/banner/01.jpg",
+      img: "assets/img/banner/topslider.jpg",
       subtitle: "PAQ ist regionweit einer der führenden Hersteller von PS-und PP-Bechern für die Lebensmittelindustrie.",
       title: "Besuchen Sie unsere digitale Produktwelt."
     };

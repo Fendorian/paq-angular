@@ -8,6 +8,7 @@ import { LanguageService } from '../../../language-service.service';
   styleUrls: ['./relatedshop.component.css']
 })
 export class RelatedshopComponent implements OnInit {
+  public currentLanguage: string;
 
    constructor(private languageService: LanguageService) { 
   }
@@ -39,6 +40,7 @@ export class RelatedshopComponent implements OnInit {
     ngOnInit(): void {
     this.languageService.currentLanguage.subscribe((language) => {
       this.setParagraphText(language);
+      this.currentLanguage = language;
     });  
   }
   setParagraphText(language: string): void {

@@ -57,12 +57,6 @@ export class ContentComponent implements AfterContentInit {
       this.setLanguageContent(language);
     });
   }
-  // updateLanguageContent(language: string) {
-  //   this.shopblock.forEach(item => {
-  //     item.localizedTitle = item.title[language];
-  //     item.localizedShortDescription = item.shortdescription[language];
-  //   });
-  // }
   updateLanguageContent(language: string) {
     this.shopblock.forEach(item => {
       if (typeof item.title === 'object') {

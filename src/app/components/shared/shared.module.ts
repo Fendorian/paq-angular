@@ -20,11 +20,12 @@ import { BlogsidebarComponent } from './blogsidebar/blogsidebar.component';
 import { RelatedpostComponent } from './relatedpost/relatedpost.component';
 import { ShopsidebarComponent } from './shopsidebar/shopsidebar.component';
 import { RelatedshopComponent } from './relatedshop/relatedshop.component';
+import { FootergifComponent } from './footergif/footergif.component';
 
 
 
 @NgModule({
-  declarations: [HeaderOneComponent, HeaderTwoComponent, HeaderThreeComponent, BreadcrumbComponent, CanvasComponent, FooterComponent, BrandsComponent, CtaComponent, ServicesidebarComponent, BlogsidebarComponent, RelatedpostComponent, ShopsidebarComponent, RelatedshopComponent],
+  declarations: [HeaderOneComponent, HeaderTwoComponent, HeaderThreeComponent, BreadcrumbComponent, CanvasComponent, FooterComponent, BrandsComponent, CtaComponent, ServicesidebarComponent, BlogsidebarComponent, RelatedpostComponent, ShopsidebarComponent, RelatedshopComponent, FootergifComponent],
   imports: [
     CommonModule,
     RouterModule,
@@ -33,6 +34,6 @@ import { RelatedshopComponent } from './relatedshop/relatedshop.component';
     SlickCarouselModule,
     FormsModule
   ],
-  exports: [HeaderOneComponent, HeaderTwoComponent, HeaderThreeComponent, BreadcrumbComponent, FooterComponent, BrandsComponent, CtaComponent, ServicesidebarComponent, BlogsidebarComponent, RelatedpostComponent, ShopsidebarComponent, RelatedshopComponent]
+  exports: [HeaderOneComponent, HeaderTwoComponent, HeaderThreeComponent, BreadcrumbComponent, FooterComponent, BrandsComponent, CtaComponent, ServicesidebarComponent, BlogsidebarComponent, RelatedpostComponent, ShopsidebarComponent, RelatedshopComponent, FootergifComponent]
 })
 export class SharedModule { }

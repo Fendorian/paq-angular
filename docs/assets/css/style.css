@@ -54,6 +54,8 @@ body {
   line-height: 1.8;
 }
 
+
+
 @media (max-width: 575px) {
   body {
     font-size: 16px;
@@ -7577,6 +7579,10 @@ header.header-three .header-nav::before {
   margin-bottom: 30px;
   position: relative;
 }
+.product-loop .single-product:hover {
+  border: solid rgb(229,14,99) 2px;
+  cursor: pointer;
+}
 
 .product-loop .single-product .product-action {
   position: absolute;
@@ -8579,3 +8585,5 @@ footer.grey-bg-footer .footer-copyright .back-to-top {
 footer.grey-bg-footer .footer-copyright .back-to-top:hover {
   background-color: rgb(229,14,99);
 }
+
+

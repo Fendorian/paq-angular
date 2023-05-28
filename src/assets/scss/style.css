@@ -6289,6 +6289,11 @@ header.header-three .header-nav::before {
   margin-bottom: 30px;
   position: relative;
 }
+.product-loop .single-product:hover {
+  border: solid rgb(229,14,99) 2px;
+  cursor: pointer;
+}
+
 .product-loop .single-product .product-action {
   position: absolute;
   z-index: 1;

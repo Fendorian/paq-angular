@@ -1,6 +1,9 @@
 /*======= Header =======*/
 header {
 
+	body {
+		display: none;
+	  }
 	.header-nav {
 		position: relative;
 		background-color: $white;

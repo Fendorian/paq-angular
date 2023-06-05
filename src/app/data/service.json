@@ -2,7 +2,7 @@
     {
         "id": 1,
         "icon": "flaticon-chart",
-        "shadowicon": "assets/img/icons/01.svg",
+        "shadowicon": "assets/img/icons/pp-cup.jpg",
         "img": "assets/img/feature/01.jpg",
         "title": {
             "en": "PP Cup",
@@ -39,7 +39,7 @@
     {
         "id": 2,
         "icon": "flaticon-graph-1",
-        "shadowicon": "assets/img/icons/02.svg",
+        "shadowicon": "assets/img/icons/paper-cups.jpg",
         "img": "assets/img/feature/02.jpg",
         "title": {
             "en": "Paper Cups",
@@ -76,7 +76,7 @@
     {
         "id": 3,
         "icon": "flaticon-diagram",
-        "shadowicon": "assets/img/icons/03.svg",
+        "shadowicon": "assets/img/icons/phone.jpg",
         "img": "assets/img/feature/03.jpg",
         "title": {
             "en": "Contact us",

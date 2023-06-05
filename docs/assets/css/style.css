@@ -54,8 +54,6 @@ body {
   line-height: 1.8;
 }
 
-
-
 @media (max-width: 575px) {
   body {
     font-size: 16px;
@@ -2356,6 +2354,7 @@ header.header-three .header-nav::before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          border-bottom: 1px solid pink;
 }
 
 .about-illustration-img .illustration-img {
@@ -8585,5 +8584,3 @@ footer.grey-bg-footer .footer-copyright .back-to-top {
 footer.grey-bg-footer .footer-copyright .back-to-top:hover {
   background-color: rgb(229,14,99);
 }
-
-

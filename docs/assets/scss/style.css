@@ -580,6 +580,9 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   }
 }
 /*======= Header =======*/
+header body {
+  display: none;
+}
 header .header-nav {
   position: relative;
   background-color: #fff;
@@ -1960,6 +1963,7 @@ header.header-three .header-nav::before {
   min-height: 550px;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid pink;
 }
 .about-illustration-img .illustration-img {
   position: absolute;
@@ -6288,10 +6292,6 @@ header.header-three .header-nav::before {
 .product-loop .single-product .product-img {
   margin-bottom: 30px;
   position: relative;
-}
-.product-loop .single-product:hover {
-  border: solid rgb(229,14,99) 2px;
-  cursor: pointer;
 }
 .product-loop .single-product .product-action {
   position: absolute;

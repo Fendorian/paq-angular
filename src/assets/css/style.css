@@ -2354,6 +2354,7 @@ header.header-three .header-nav::before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          border-bottom: 1px solid pink;
 }
 
 .about-illustration-img .illustration-img {

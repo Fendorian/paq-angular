@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\papic\OneDrive\Desktop\Finsa\paq-angular\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Users\papic\OneDrive\Desktop\novi paq\paq-angular\src\main.ts */"zUnb");
 
 
 /***/ }),

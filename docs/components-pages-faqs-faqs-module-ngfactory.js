@@ -117,6 +117,67 @@ class FaqsRoutingModule {
 
 /***/ }),
 
+/***/ "8hFM":
+/*!**************************************************************!*\
+  !*** ./src/app/components/shared/brands/brands.component.ts ***!
+  \**************************************************************/
+/*! exports provided: BrandsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BrandsComponent", function() { return BrandsComponent; });
+/* harmony import */ var _data_brands_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../data/brands.json */ "JwaI");
+var _data_brands_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../data/brands.json */ "JwaI", 1);
+
+class BrandsComponent {
+    constructor() {
+        this.brands = _data_brands_json__WEBPACK_IMPORTED_MODULE_0__;
+        this.settings = {
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            speed: 500,
+            arrows: false,
+            fade: false,
+            dots: false,
+            swipe: true,
+            responsive: [{
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 4,
+                    },
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 3,
+                    },
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 400,
+                    settings: {
+                        slidesToShow: 1,
+                    },
+                },
+            ]
+        };
+    }
+    ngOnInit() {
+    }
+}
+
+
+/***/ }),
+
 /***/ "B3OR":
 /*!**************************************************************************!*\
   !*** ./src/app/components/pages/faqs/faqs.component.css.shim.ngstyle.js ***!
@@ -242,6 +303,62 @@ function View_FaqsComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODUL
     } return ad; }, _shared_header_one_header_one_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["View_HeaderOneComponent_0"], _shared_header_one_header_one_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["RenderType_HeaderOneComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _shared_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_3__["HeaderOneComponent"], [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"], _language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"], _angular_router__WEBPACK_IMPORTED_MODULE_6__["Router"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "app-breadcrumb", [], null, null, null, _shared_breadcrumb_breadcrumb_component_ngfactory__WEBPACK_IMPORTED_MODULE_7__["View_BreadcrumbComponent_0"], _shared_breadcrumb_breadcrumb_component_ngfactory__WEBPACK_IMPORTED_MODULE_7__["RenderType_BreadcrumbComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 114688, null, 0, _shared_breadcrumb_breadcrumb_component__WEBPACK_IMPORTED_MODULE_8__["BreadcrumbComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"], _angular_router__WEBPACK_IMPORTED_MODULE_6__["Router"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "app-faq", [], null, null, null, _faq_faq_component_ngfactory__WEBPACK_IMPORTED_MODULE_9__["View_FaqComponent_0"], _faq_faq_component_ngfactory__WEBPACK_IMPORTED_MODULE_9__["RenderType_FaqComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 114688, null, 0, _faq_faq_component__WEBPACK_IMPORTED_MODULE_10__["FaqComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "app-contact", [], null, null, null, _contact_contact_component_ngfactory__WEBPACK_IMPORTED_MODULE_11__["View_ContactComponent_0"], _contact_contact_component_ngfactory__WEBPACK_IMPORTED_MODULE_11__["RenderType_ContactComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](7, 114688, null, 0, _contact_contact_component__WEBPACK_IMPORTED_MODULE_12__["ContactComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 4, "section", [["class", "client-section"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 3, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 2, "div", [["class", "client-slider section-gap"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 1, "app-brands", [], null, null, null, _shared_brands_brands_component_ngfactory__WEBPACK_IMPORTED_MODULE_13__["View_BrandsComponent_0"], _shared_brands_brands_component_ngfactory__WEBPACK_IMPORTED_MODULE_13__["RenderType_BrandsComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](12, 114688, null, 0, _shared_brands_brands_component__WEBPACK_IMPORTED_MODULE_14__["BrandsComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "app-footer", [], null, null, null, _shared_footer_footer_component_ngfactory__WEBPACK_IMPORTED_MODULE_15__["View_FooterComponent_0"], _shared_footer_footer_component_ngfactory__WEBPACK_IMPORTED_MODULE_15__["RenderType_FooterComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 114688, null, 0, _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_16__["FooterComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], { layout: [0, "layout"], logo: [1, "logo"], shape: [2, "shape"], shape2: [3, "shape2"], shapeclass: [4, "shapeclass"], shape2class: [5, "shape2class"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 1, 0); _ck(_v, 3, 0); _ck(_v, 5, 0); _ck(_v, 7, 0); _ck(_v, 12, 0); var currVal_0 = _co.classname; var currVal_1 = _co.ftlogo; var currVal_2 = _co.ftshape; var currVal_3 = _co.ftshape2; var currVal_4 = _co.ftshapeclass; var currVal_5 = _co.ftshape2class; _ck(_v, 14, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5); }, null); }
 function View_FaqsComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-faqs", [], null, null, null, View_FaqsComponent_0, RenderType_FaqsComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _faqs_component__WEBPACK_IMPORTED_MODULE_17__["FaqsComponent"], [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 var FaqsComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-faqs", _faqs_component__WEBPACK_IMPORTED_MODULE_17__["FaqsComponent"], View_FaqsComponent_Host_0, {}, {}, []);
+
+
+
+/***/ }),
+
+/***/ "JwaI":
+/*!**********************************!*\
+  !*** ./src/app/data/brands.json ***!
+  \**********************************/
+/*! exports provided: 0, 1, 2, 3, 4, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"id\":1,\"img\":\"assets/img/clients/01.png\",\"title\":\"company name\"},{\"id\":2,\"img\":\"assets/img/clients/02.png\",\"title\":\"company name\"},{\"id\":3,\"img\":\"assets/img/clients/03.png\",\"title\":\"company name\"},{\"id\":4,\"img\":\"assets/img/clients/04.png\",\"title\":\"company name\"},{\"id\":5,\"img\":\"assets/img/clients/05.png\",\"title\":\"company name\"}]");
+
+/***/ }),
+
+/***/ "Lfh4":
+/*!************************************************************************!*\
+  !*** ./src/app/components/shared/brands/brands.component.ngfactory.js ***!
+  \************************************************************************/
+/*! exports provided: RenderType_BrandsComponent, View_BrandsComponent_0, View_BrandsComponent_Host_0, BrandsComponentNgFactory */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_BrandsComponent", function() { return RenderType_BrandsComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_BrandsComponent_0", function() { return View_BrandsComponent_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_BrandsComponent_Host_0", function() { return View_BrandsComponent_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BrandsComponentNgFactory", function() { return BrandsComponentNgFactory; });
+/* harmony import */ var _brands_component_css_shim_ngstyle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./brands.component.css.shim.ngstyle */ "fs2M");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var ngx_slick_carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-slick-carousel */ "fyIi");
+/* harmony import */ var _node_modules_ngx_slick_carousel_ngx_slick_carousel_ngfactory__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/ngx-slick-carousel/ngx-slick-carousel.ngfactory */ "Ahbh");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "s7LF");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _brands_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./brands.component */ "8hFM");
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
+ * tslint:disable
+ */
+
+
+
+
+
+
+
+var styles_BrandsComponent = [_brands_component_css_shim_ngstyle__WEBPACK_IMPORTED_MODULE_0__["styles"]];
+var RenderType_BrandsComponent = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵcrt"]({ encapsulation: 0, styles: styles_BrandsComponent, data: {} });
+
+function View_BrandsComponent_1(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 3, "div", [["class", "col"], ["ngxSlickItem", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 212992, null, 0, ngx_slick_carousel__WEBPACK_IMPORTED_MODULE_2__["SlickItemDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["PLATFORM_ID"], ngx_slick_carousel__WEBPACK_IMPORTED_MODULE_2__["SlickCarouselComponent"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "a", [["class", "client-img d-block text-center"], ["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 0, "img", [], [[8, "src", 4], [8, "alt", 0]], null, null, null, null))], function (_ck, _v) { _ck(_v, 1, 0); }, function (_ck, _v) { var currVal_0 = _v.context.$implicit.img; var currVal_1 = _v.context.$implicit.title; _ck(_v, 3, 0, currVal_0, currVal_1); }); }
+function View_BrandsComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 4, "ngx-slick-carousel", [["class", "row align-items-center justify-content-between"], ["id", "clientSlider"]], null, null, null, _node_modules_ngx_slick_carousel_ngx_slick_carousel_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_SlickCarouselComponent_0"], _node_modules_ngx_slick_carousel_ngx_slick_carousel_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_SlickCarouselComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](5120, null, _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], function (p0_0) { return [p0_0]; }, [ngx_slick_carousel__WEBPACK_IMPORTED_MODULE_2__["SlickCarouselComponent"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 13287424, [["slickModal", 4]], 0, ngx_slick_carousel__WEBPACK_IMPORTED_MODULE_2__["SlickCarouselComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["PLATFORM_ID"]], { config: [0, "config"] }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, 0, 1, null, View_BrandsComponent_1)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](4, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.settings; _ck(_v, 2, 0, currVal_0); var currVal_1 = _co.brands; _ck(_v, 4, 0, currVal_1); }, null); }
+function View_BrandsComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-brands", [], null, null, null, View_BrandsComponent_0, RenderType_BrandsComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _brands_component__WEBPACK_IMPORTED_MODULE_6__["BrandsComponent"], [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+var BrandsComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-brands", _brands_component__WEBPACK_IMPORTED_MODULE_6__["BrandsComponent"], View_BrandsComponent_Host_0, {}, {}, []);
 
 
 
@@ -398,6 +515,28 @@ class FaqsComponent {
     ngOnInit() {
     }
 }
+
+
+/***/ }),
+
+/***/ "fs2M":
+/*!*******************************************************************************!*\
+  !*** ./src/app/components/shared/brands/brands.component.css.shim.ngstyle.js ***!
+  \*******************************************************************************/
+/*! exports provided: styles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
+ * tslint:disable
+ */
+var styles = ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJicmFuZHMuY29tcG9uZW50LmNzcyJ9 */"];
+
 
 
 /***/ })

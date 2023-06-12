@@ -6814,7 +6814,8 @@ header.header-three .header-nav::before {
 footer {
   background-color: #14212b;
   position: relative;
-  padding-top: 80px;
+  /* padding-top: 80px; */
+  padding: 20px;
   z-index: 1;
 }
 footer .widget {

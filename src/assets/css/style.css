@@ -8209,9 +8209,9 @@ header.header-three .header-nav::before {
 
 /*=======  Footer  =======*/
 footer {
-  background-color: #14212b;
+background-color: #14212b;
   position: relative;
-  padding-top: 80px;
+  padding: 20px;
   z-index: 1;
 }
 

@@ -747,7 +747,7 @@
             "assets/img/shop/antistatic1.jpg"
         ],
         "category": [
-            1
+            2
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
@@ -768,29 +768,81 @@
     {
         "id": 18,
         "title": {
-            "en": "Coffee cups 0.10 l 50/1",
-            "hr": "Šalice za kavu 0,10 l 50/1",
-            "de": "Kaffeetassen 0,10 l 50/1"
+            "en": "Coffee cups 0.18 l 50/1",
+            "hr": "Šalice za kavu 0,18 l 50/1",
+            "de": "Kaffeetassen 0,18 l 50/1"
           },
         "image": [
             "assets/img/shop/salica010.jpg"
         ],
         "category": [
-            1
+            4
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128617"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "n/a"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "175 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "60 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "10"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "12"
             }
         ]
     },
@@ -1156,35 +1208,6 @@
     {
         "id": 29,
         "title": {
-            "en": "Dessert spoon 10/1",
-            "hr": "Žlica desertna 10/1",
-            "de": "Dessertlöffel 10/1"
-          },
-        "image": [
-            "assets/img/shop/desert.jpg"
-        ],
-        "category": [
-            1
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": "Weight",
-                "text": "6.59 kg"
-            },
-            {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
-            },
-            {
-                "title": "Color",
-                "text": "Red, Black, Blue"
-            }
-        ]
-    },
-    {
-        "id": 30,
-        "title": {
             "en": "Espresso spoon 500/1",
             "hr": "Žlica za espresso 500/1",
             "de": "Espressolöffel 500/1"
@@ -1212,7 +1235,7 @@
         ]
     },
     {
-        "id": 31,
+        "id": 30,
         "title": {
             "en": "Dessert spoon 10/1",
             "hr": "Žlica za espresso 1000/1",
@@ -1241,7 +1264,7 @@
         ]
     },
     {
-        "id": 32,
+        "id": 31,
         "title": {
             "en": "Knife 10/1",
             "hr": "Nož 10/1",
@@ -1271,7 +1294,7 @@
         ]
     },
     {
-        "id": 33,
+        "id": 32,
         "title": {
             "en": "Knife 20/1",
             "hr": "Nož 20/1",
@@ -1301,7 +1324,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 33,
         "title": {
             "en": "Knife 50/1",
             "hr": "Nož 50/1",
@@ -1331,7 +1354,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 34,
         "title": {
             "en": "Knife 100/1",
             "hr": "Nož 100/1",
@@ -1361,7 +1384,7 @@
         ]
     },
     {
-        "id": 36,
+        "id": 35,
         "title": {
             "en": "Knife 10/1 transparent",
             "hr": "Nož 10/1 transparent",

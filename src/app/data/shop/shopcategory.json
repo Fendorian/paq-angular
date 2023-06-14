@@ -16,27 +16,11 @@
           }
     },
     {
-        "id": 3,
-        "title": {
-            "en": "Cups",
-            "hr": "Šalice",
-            "de": "Tassen"
-          }
-    },
-    {
         "id": 4,
         "title": {
-            "en": "Cups",
+            "en": "Paper Cups",
             "hr": "Šalice",
             "de": "Tassen"
-          }
-    },
-    {
-        "id": 5,
-        "title": {
-            "en": "Paper cups",
-            "hr": "Papirne čaše",
-            "de": "Papierbecher"
           }
     },
     {

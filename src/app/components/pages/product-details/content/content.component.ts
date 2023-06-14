@@ -107,13 +107,14 @@ export class ContentComponent implements AfterContentInit {
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 6000,
     arrows: true,
     focusOnSelect: true,
     nextArrow: '<button class="slick-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
     prevArrow: '<button class="slick-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
-    asNavFor: '.slick-thumbs'
+    asNavFor: '.slick-thumbs',
+    speed: 0
   };
   settingsThumb = {
     infinite: true,
@@ -133,7 +134,8 @@ export class ContentComponent implements AfterContentInit {
           vertical: false,
         }
       }
-    ]
+    ],
+    speed: 0
   };
 
   ngAfterContentInit(): void {

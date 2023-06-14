@@ -20,7 +20,7 @@
                     "hr": "Bar kod:",
                     "de": "Barcode:"
                 },
-                "text": "3875000651203"
+                "text": "3875000651234"
             },
             {
                 "title": {
@@ -183,7 +183,7 @@
                     "hr": "Bar kod:",
                     "de": "Barcode:"
                 },
-                "text": "3875000651234"
+                "text": "3875000651029"
             },
             {
                 "title": {
@@ -207,7 +207,7 @@
                     "hr": "Težina (+-5%)",
                     "de": "Gewicht (+-5%)"
                 },
-                "text": "2,5 g"
+                "text": "2,3 g"
             },
             {
                 "title": {
@@ -215,7 +215,7 @@
                     "hr": "Promjer",
                     "de": "Durchmesser"
                 },
-                "text": "69,3 mm"
+                "text": "83,7 mm"
             },
             {
                 "title": {
@@ -223,7 +223,7 @@
                     "hr": "Visina",
                     "de": "Höhe"
                 },
-                "text": "100,5 mm"
+                "text": "100 mm"
             },
             {
                 "title": {
@@ -239,7 +239,7 @@
                     "hr": "Komada u pakovanju",
                     "de": "Verpackung im Karton"
                 },
-                "text": "30"
+                "text": "14"
             }
         ] 
        
@@ -266,7 +266,7 @@
                     "hr": "Bar kod:",
                     "de": "Barcode:"
                 },
-                "text": "3875000651234"
+                "text": "3875000650121"
             },
             {
                 "title": {
@@ -282,7 +282,7 @@
                     "hr": "Boja",
                     "de": "Farbe"
                 },
-                "text": "Transparentna"
+                "text": "bijela"
             },
             {
                 "title": {
@@ -290,7 +290,7 @@
                     "hr": "Težina (+-5%)",
                     "de": "Gewicht (+-5%)"
                 },
-                "text": "2,5 g"
+                "text": "2,3 g"
             },
             {
                 "title": {
@@ -306,7 +306,7 @@
                     "hr": "Visina",
                     "de": "Höhe"
                 },
-                "text": "100,5 mm"
+                "text": "83,7 mm"
             },
             {
                 "title": {
@@ -348,7 +348,7 @@
                     "hr": "Bar kod:",
                     "de": "Barcode:"
                 },
-                "text": "3875000651234"
+                "text": "3875000650091"
             },
             {
                 "title": {
@@ -364,7 +364,7 @@
                     "hr": "Boja",
                     "de": "Farbe"
                 },
-                "text": "Transparentna"
+                "text": "bijela"
             },
             {
                 "title": {
@@ -372,7 +372,7 @@
                     "hr": "Težina (+-5%)",
                     "de": "Gewicht (+-5%)"
                 },
-                "text": "2,5 g"
+                "text": "2,3 g"
             },
             {
                 "title": {
@@ -388,7 +388,7 @@
                     "hr": "Visina",
                     "de": "Höhe"
                 },
-                "text": "100,5 mm"
+                "text": "83,7 mm"
             },
             {
                 "title": {
@@ -396,7 +396,7 @@
                     "hr": "Komada u pakovanju",
                     "de": "Ein Stück in einer Packung"
                 },
-                "text": "100"
+                "text": "50"
             },
             {
                 "title": {
@@ -425,18 +425,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650008"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "oranz"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,3 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "83,7 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ]
+        ] 
        
     },
     {
@@ -456,18 +508,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650367"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "zuta"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,3 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "83,7 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ]
+        ] 
     },
     {
         "id": 8,
@@ -486,18 +590,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650039"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "plava"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,3 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "83,7 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ]
+        ] 
     },
     {
         "id": 9,
@@ -515,18 +671,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650848"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "lime"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "2,3 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "69,3 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "83,7 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ]
+        ] 
     },
     {
         "id": 10,
@@ -545,18 +753,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650183"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polypropylene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "4,4 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "80 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "117 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "20"
             }
-        ]
+        ] 
     },
     {
         "id": 11,
@@ -575,18 +835,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650213"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "7 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "82,2 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "118,1 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "20"
             }
-        ]
+        ] 
     },
     {
         "id": 12,
@@ -604,18 +916,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128846"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "13,3 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "60 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "90 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "10"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "16"
             }
-        ]
+        ] 
     },
     {
         "id": 13,
@@ -634,18 +998,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650336"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "10 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "96 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "131,6 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "25"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "16"
             }
-        ]
+        ] 
     },
     {
         "id": 14,
@@ -664,18 +1080,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650305"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "7,4 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "95 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "130 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "25"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "16"
             }
-        ]
+        ] 
     },
     {
         "id": 15,
@@ -693,18 +1161,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128419"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "3,7 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "45 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "47 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "15"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "15"
             }
-        ]
+        ] 
     },
     {
         "id": 16,
@@ -720,20 +1240,72 @@
             1
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
+        "additional":[
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128044"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "3,7 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "45 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "47 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "35"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
             }
-        ]
+        ] 
     },
     {
         "id": 17,
@@ -752,18 +1324,70 @@
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000650060"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "smedje-bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "3,3 g"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "70,4 mm"
+            },
+            {
+                "title": {
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "72,2 mm"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "30"
             }
-        ]
+        ] 
     },
     {
         "id": 18,
@@ -849,6 +1473,64 @@
     {
         "id": 19,
         "title": {
+            "en": "Fork 8/1 MULTI-USE WHITE",
+            "hr": "Vilica 8/1 VIŠEKRATNA BIJELA",
+            "de": "Gabel 8/1 MULTIPLE WEISS"
+          },
+        "image": [
+            "assets/img/shop/vilica10.jpg",
+            "assets/img/shop/vilica101.jpg"
+        ],
+        "category": [
+            6
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651418"
+            },
+            {
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
+            },
+            {
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "8"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "title": {
             "en": "Fork 10/1",
             "hr": "Vilica 10/1",
             "de": "Gabel 10/1"
@@ -858,26 +1540,78 @@
             "assets/img/shop/vilica101.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128938"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "24"
+            },
+            {
+                "title": {
+                    "en": "Diameter",
+                    "hr": "Promjer",
+                    "de": "Durchmesser"
+                },
+                "text": "1"
+            },
+            {
+                "title": { 
+                    "en": "Height",
+                    "hr": "Visina",
+                    "de": "Höhe"
+                },
+                "text": "1"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "10"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
             }
         ]
     },
     {
-        "id": 20,
+        "id": 21,
         "title": {
             "en": "Fork 20/1",
             "hr": "Vilica 20/1",
@@ -888,26 +1622,62 @@
             "assets/img/shop/vilica201.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128969"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "24"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "20"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "18"
             }
         ]
     },
     {
-        "id": 21,
+        "id": 22,
         "title": {
             "en": "Fork 50/1",
             "hr": "Vilica 50/1",
@@ -918,26 +1688,62 @@
             "assets/img/shop/salica0501.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128488"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "111"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "10"
             }
         ]
     },
     {
-        "id": 22,
+        "id": 23,
         "title": {
             "en": "Fork 100/1",
             "hr": "Vilica 100/1",
@@ -948,26 +1754,62 @@
             "assets/img/shop/vilica1001.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128495"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "219"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "14"
             }
         ]
     },
     {
-        "id": 23,
+        "id": 24,
         "title": {
             "en": "Fork 100/1 TRANSPARENT",
             "hr": "Vilica 100/1 TRANSPARENT",
@@ -977,26 +1819,119 @@
             "assets/img/shop/vilicatrans.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128549"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "70"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "10"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "16"
             }
         ]
     },
     {
-        "id": 24,
+        "id": 25,
+        "title": {
+            "en": "Spoon 8/1 MULTI-USE WHITE",
+            "hr": "Žlica 8/1 VIŠEKRATNA BIJELA",
+            "de": "Löffel 8/1 MULTI-USE WEISS"
+          },
+        "image": [
+            "assets/img/shop/zilica10.jpg"
+        ],
+        "category": [
+            6
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651388"
+            },
+            {
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
+            },
+            {
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "8"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
+            }
+        ]
+    },
+    {
+        "id": 26,
         "title": {
             "en": "Spoon 10/1",
             "hr": "Žlica 10/1",
@@ -1007,26 +1942,62 @@
             "assets/img/shop/zilica101.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128921"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "27"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "10"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "20"
             }
         ]
     },
     {
-        "id": 25,
+        "id": 27,
         "title": {
             "en": "Spoon 20/1",
             "hr": "Žlica 20/1",
@@ -1037,26 +2008,62 @@
             "assets/img/shop/salica0201.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "387700128952"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "54"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "20"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "16"
             }
         ]
     },
     {
-        "id": 26,
+        "id": 28,
         "title": {
             "en": "Spoon 50/1",
             "hr": "Žlica 50/1",
@@ -1067,26 +2074,62 @@
             "assets/img/shop/salica0501.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128501"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "136"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "8"
             }
         ]
     },
     {
-        "id": 27,
+        "id": 29,
         "title": {
             "en": "Spoon 100/1",
             "hr": "Žlica 100/1",
@@ -1097,26 +2140,62 @@
             "assets/img/shop/salica01001.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128518"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "268"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "10"
             }
         ]
     },
     {
-        "id": 28,
+        "id": 30,
         "title": {
             "en": "Žlica 10/1 TRANSPARENT",
             "hr": "Žlica 10/1 TRANSPARENT",
@@ -1127,26 +2206,62 @@
             "assets/img/shop/zilica10trans1.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128532"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "68"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "10"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "16"
             }
         ]
     },
     {
-        "id": 28,
+        "id": 31,
         "title": {
             "en": "Žlica 2/1 SALAD SET",
             "hr": "Žlica 2/1 SALAD SET",
@@ -1157,26 +2272,62 @@
             "assets/img/shop/salatset1.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128396"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "n/a"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "2"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "16"
             }
         ]
     },
     {
-        "id": 28,
+        "id": 32,
         "title": {
             "en": "Spoon 2/1 CAKE SET",
             "hr": "Žlica 2/1 CAKE SET",
@@ -1187,26 +2338,62 @@
             "assets/img/shop/cake1.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128525"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "n/a"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "2"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "16"
             }
         ]
     },
     {
-        "id": 29,
+        "id": 33,
         "title": {
             "en": "Espresso spoon 500/1",
             "hr": "Žlica za espresso 500/1",
@@ -1216,26 +2403,62 @@
             "assets/img/shop/espresso.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3872029001521"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "313 g"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "500"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
             }
         ]
     },
     {
-        "id": 30,
+        "id": 34,
         "title": {
             "en": "Dessert spoon 10/1",
             "hr": "Žlica za espresso 1000/1",
@@ -1245,26 +2468,120 @@
             "assets/img/shop/espresso100.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128655"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "626"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "1000"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "10"
             }
         ]
     },
     {
-        "id": 31,
+        "id": 35,
+        "title": {
+            "en": "Knife 8/1 MULTI-USE WHITE",
+            "hr": "Nož 8/1 VIŠEKRATNI BIJELI",
+            "de": "Messer 8/1 MULTIPLE WEISS"
+          },
+        "image": [
+            "assets/img/shop/noz10.jpg",
+            "assets/img/shop/noz101.jpg"
+        ],
+        "category": [
+            6
+        ],
+        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
+        "additional": [
+            {
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651449"
+            },
+            {
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
+            },
+            {
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "8"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
+            }
+        ]
+    },
+    {
+        "id": 36,
         "title": {
             "en": "Knife 10/1",
             "hr": "Nož 10/1",
@@ -1275,56 +2592,128 @@
             "assets/img/shop/noz101.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128945"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "23"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "10"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "32"
             }
         ]
     },
     {
-        "id": 32,
+        "id": 37,
         "title": {
             "en": "Knife 20/1",
             "hr": "Nož 20/1",
             "de": "Messer 20/1"
           },
         "image": [
-            "assets/img/shop/desertna20.jpg",
-            "assets/img/shop/desertna201.jpg"
+            "assets/img/shop/noz201.jpg",
+            "assets/img/shop/noz201.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128976"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "46"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "20"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
             }
         ]
     },
     {
-        "id": 33,
+        "id": 38,
         "title": {
             "en": "Knife 50/1",
             "hr": "Nož 50/1",
@@ -1335,26 +2724,62 @@
             "assets/img/shop/noz501.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128464"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "bijela"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "116"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "50"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "12"
             }
         ]
     },
     {
-        "id": 34,
+        "id": 39,
         "title": {
             "en": "Knife 100/1",
             "hr": "Nož 100/1",
@@ -1365,26 +2790,62 @@
             "assets/img/shop/noz1001.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128471"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "bijela"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "233"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "100"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "19"
             }
         ]
     },
     {
-        "id": 35,
+        "id": 40,
         "title": {
             "en": "Knife 10/1 transparent",
             "hr": "Nož 10/1 transparent",
@@ -1395,21 +2856,57 @@
             "assets/img/shop/noz101trans.jpg"
         ],
         "category": [
-            1
+            6
         ],
         "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
-                "title": "Weight",
-                "text": "6.59 kg"
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3877000128556"
             },
             {
-                "title": "Dimensions",
-                "text": "43.31 x 26.70 x 64.50 cm"
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
             },
             {
-                "title": "Color",
-                "text": "Red, Black, Blue"
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": "transparentna"
+            },
+            {
+                "title": {
+                    "en": "Weight (+-5%)",
+                    "hr": "Težina (+-5%)",
+                    "de": "Gewicht (+-5%)"
+                },
+                "text": "61"
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "10"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Komada u pakovanju",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "20"
             }
         ]
     }

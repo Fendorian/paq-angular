@@ -8207,6 +8207,16 @@ header.header-three .header-nav::before {
   }
 }
 
+.additional-info-table {
+  border-collapse: collapse;
+}
+
+.additional-info-table th,
+.additional-info-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
 /*=======  Footer  =======*/
 footer {
 background-color: #14212b;

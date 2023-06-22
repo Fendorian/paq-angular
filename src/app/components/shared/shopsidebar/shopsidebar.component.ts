@@ -15,6 +15,7 @@ export class ShopsidebarComponent implements OnInit {
   public tags = tags;
   public currentLanguage: string;
   public widgetTitle: string;
+  public showAll: string;
 
   ngOnInit(): void {
     this.languageService.currentLanguage.subscribe((language) => {
@@ -29,15 +30,19 @@ export class ShopsidebarComponent implements OnInit {
     switch (language) {
       case 'en':
         this.widgetTitle = 'Category';
+        this.showAll = 'Show All';
         break;
       case 'hr':
         this.widgetTitle = 'Kategorija';
+        this.showAll = 'Prikaži sve';
         break;
       case 'de':
         this.widgetTitle = 'Kategorie';
+        this.showAll = 'Zeige alles';
         break;
       default:
         this.widgetTitle = 'Category';
+        this.showAll = 'Show all';
         break;
     }
   }

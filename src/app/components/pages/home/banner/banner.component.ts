@@ -64,7 +64,7 @@ export class BannerComponent implements OnInit {
         break;
       case 'hr':
         this.banner = [hrBanner];
-        this.buttonText = 'Produkti';
+        this.buttonText = 'Proizvodi';
         break;
       case 'de':
         this.banner = [deBanner];

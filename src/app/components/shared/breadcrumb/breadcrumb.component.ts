@@ -64,13 +64,23 @@ export class BreadcrumbComponent implements OnInit {
     const url = this.router.url.split('?')[0]; // remove the query parameters
     const urlSegments = url.split('/');
     let routeName = '';
-    if(urlSegments.includes('product-details')) {
-      routeName = 'product-details';
-    } else {
-      routeName = urlSegments[urlSegments.length - 1] === 'shop' ? 'products' : urlSegments[urlSegments.length - 1];
+  
+    // If we're on a 'shop' route, map to 'products'
+    if(urlSegments.includes('shop')) {
+      routeName = 'products';
     }
+    // If we're on a 'product-details' route, map to 'product-details'
+    else if(urlSegments.includes('product-details')) {
+      routeName = 'product-details';
+    }
+    // Otherwise, use the last segment of the URL as the routeName
+    else {
+      routeName = urlSegments[urlSegments.length - 1];
+    }
+  
     this.titleTag = this.translations[routeName]?.[language] || 'Products';
   }
+  
   
   
   

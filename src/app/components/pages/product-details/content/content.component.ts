@@ -26,6 +26,9 @@ export class ContentComponent implements AfterContentInit {
     });
     return elems;
   }
+  isObject(val: any): boolean {
+    return typeof val === 'object';
+  }
   // ngOnInit(): void {
   //   this.languageService.currentLanguage.subscribe((language) => {
   //     this.currentLanguage = language;

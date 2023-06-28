@@ -11,11 +11,12 @@
                     <div class="icon">
                         <img [src]="item.shadowicon" [alt]="item.title">
                     </div>
-                    <h3><a [routerLink]="getLink(i)">{{item.title[languageService.currentLanguage | async]}}</a></h3>
+                    <h3><a [routerLink]="getRouteLink(i)" [queryParams]="{ 'lang': languageSwitch }">{{item.title[languageService.currentLanguage | async]}}</a></h3>
                     <p>{{item.shortdesc}}</p>
-                    <a [routerLink]="getLink(i)" class="service-link">
+                    <a [routerLink]="getRouteLink(i)" [queryParams]="{ 'lang': languageSwitch }" class="service-link">
                         <i class="fal fa-long-arrow-right"></i>
                     </a>
+                    
                 </div>
             </div>            
         </div>

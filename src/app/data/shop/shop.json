@@ -52,9 +52,21 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
+                },
+                "text": {
+                    "en": "230 ml",
+                    "hr": "230 ml",
+                    "de": "230 ml"
+                  }
+            },
+            {
+                "title": {
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "2,5 g",
@@ -165,14 +177,26 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
                 },
                 "text": {
-                    "en": "2,5 g",
-                    "hr": "2,5 g",
-                    "de": "2,5 g"
+                    "en": "230 ml",
+                    "hr": "230 ml",
+                    "de": "230 ml"
+                  }
+            },
+            {
+                "title": {
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
+                },
+                "text": {
+                    "en": "2,3 g",
+                    "hr": "2,3 g",
+                    "de": "2,3 g"
                   }
             },
             {
@@ -214,7 +238,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": {
@@ -279,14 +303,26 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
                 },
                 "text": {
-                    "en": "2,3 g",
-                    "hr": "2,3 g",
-                    "de": "2,3 g"
+                    "en": "180 ml",
+                    "hr": "180 ml",
+                    "de": "180 ml"
+                  }
+            },
+            {
+                "title": {
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
+                },
+                "text": {
+                    "en": "2,2 g",
+                    "hr": "2,2 g",
+                    "de": "2,2 g"
                   }
             },
             {
@@ -328,7 +364,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": {
@@ -394,14 +430,26 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
                 },
                 "text": {
-                    "en": "2,3 g",
-                    "hr": "2,3 g",
-                    "de": "2,3 g"
+                    "en": "180 ml",
+                    "hr": "180 ml",
+                    "de": "180 ml"
+                  }
+            },
+            {
+                "title": {
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
+                },
+                "text": {
+                    "en": "2,2 g",
+                    "hr": "2,2 g",
+                    "de": "2,2 g"
                   }
             },
             {
@@ -508,14 +556,26 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
                 },
                 "text": {
-                    "en": "2,3 g",
-                    "hr": "2,3 g",
-                    "de": "2,3 g"
+                    "en": "180 ml",
+                    "hr": "180 ml",
+                    "de": "180 ml"
+                  }
+            },
+            {
+                "title": {
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
+                },
+                "text": {
+                    "en": "2,2 g",
+                    "hr": "2,2 g",
+                    "de": "2,2 g"
                   }
             },
             {
@@ -557,7 +617,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": {
@@ -622,9 +682,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "2,3 g",
@@ -737,9 +797,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "2,3 g",
@@ -851,9 +911,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "2,3 g",
@@ -964,9 +1024,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "2,3 g",
@@ -1079,9 +1139,21 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
+                },
+                "text": {
+                    "en": "350 ml",
+                    "hr": "350 ml",
+                    "de": "350 ml"
+                  }
+            },
+            {
+                "title": {
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "4,4 g",
@@ -1128,7 +1200,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": {
@@ -1193,9 +1265,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "7 g",
@@ -1306,9 +1378,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "13,3 g",
@@ -1420,9 +1492,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "10 g",
@@ -1534,9 +1606,21 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
+                },
+                "text": {
+                    "en": "550 ml",
+                    "hr": "550 ml",
+                    "de": "550 ml"
+                  }
+            },
+            {
+                "title": {
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "7,4 g",
@@ -1583,7 +1667,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": {
@@ -1647,9 +1731,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "3,7 g",
@@ -1760,9 +1844,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "3,7 g",
@@ -1874,9 +1958,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": {
                     "en": "3,3 g",
@@ -1923,7 +2007,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": {
@@ -1979,14 +2063,6 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
-                },
-                "text": "n/a"
-            },
-            {
-                "title": {
                     "en": "Diameter",
                     "hr": "Promjer",
                     "de": "Durchmesser"
@@ -2012,7 +2088,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "12"
@@ -2073,7 +2149,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "24"
@@ -2126,9 +2202,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "24"
             },
@@ -2212,14 +2288,6 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
-                },
-                "text": "24"
-            },
-            {
-                "title": {
                     "en": "A piece in a package",
                     "hr": "Komada u pakovanju",
                     "de": "Ein Stück in einer Packung"
@@ -2229,7 +2297,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "18"
@@ -2282,9 +2350,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "111"
             },
@@ -2352,9 +2420,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "219"
             },
@@ -2421,9 +2489,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "70"
             },
@@ -2499,7 +2567,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "24"
@@ -2552,9 +2620,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "27"
             },
@@ -2622,14 +2690,6 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
-                },
-                "text": "54"
-            },
-            {
-                "title": {
                     "en": "A piece in a package",
                     "hr": "Komada u pakovanju",
                     "de": "Ein Stück in einer Packung"
@@ -2639,7 +2699,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "16"
@@ -2692,9 +2752,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "136"
             },
@@ -2762,9 +2822,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "268"
             },
@@ -2832,9 +2892,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "68"
             },
@@ -2902,9 +2962,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "n/a"
             },
@@ -2972,9 +3032,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "n/a"
             },
@@ -3041,9 +3101,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "313 g"
             },
@@ -3058,7 +3118,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "24"
@@ -3110,9 +3170,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "626"
             },
@@ -3127,7 +3187,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "10"
@@ -3188,7 +3248,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "24"
@@ -3241,9 +3301,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "23"
             },
@@ -3311,14 +3371,6 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
-                },
-                "text": "46"
-            },
-            {
-                "title": {
                     "en": "A piece in a package",
                     "hr": "Komada u pakovanju",
                     "de": "Ein Stück in einer Packung"
@@ -3328,7 +3380,7 @@
             {
                 "title": {
                     "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
+                    "hr": "Pakiranja u kutiji",
                     "de": "Verpackung im Karton"
                 },
                 "text": "24"
@@ -3381,9 +3433,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "116"
             },
@@ -3455,9 +3507,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "233"
             },
@@ -3525,9 +3577,9 @@
             },
             {
                 "title": {
-                    "en": "Weight (+-5%)",
-                    "hr": "Težina (+-5%)",
-                    "de": "Gewicht (+-5%)"
+                    "en": "Weight",
+                    "hr": "Težina",
+                    "de": "Gewicht"
                 },
                 "text": "61"
             },
@@ -3598,6 +3650,18 @@
             },
             {
                 "title": {
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
+                },
+                "text": {
+                    "en": "230 ml",
+                    "hr": "230 ml",
+                    "de": "230 ml"
+                  }
+            },
+            {
+                "title": {
                     "en": "Diameter",
                     "hr": "Promjer",
                     "de": "Durchmesser"
@@ -3610,9 +3674,9 @@
             },
             {
                 "title": {
-                    "en": "Width (+-5%)",
-                    "hr": "Visina (+-5%)",
-                    "de": "Höhe (+-5%)"
+                    "en": "Width",
+                    "hr": "Visina",
+                    "de": "Höhe"
                 },
                 "text": "97 +- 0,5 mm"
             },
@@ -3683,6 +3747,18 @@
             },
             {
                 "title": {
+                    "en": "Volume",
+                    "hr": "Volumen",
+                    "de": "Volumen"
+                },
+                "text": {
+                    "en": "350 ml",
+                    "hr": "350 ml",
+                    "de": "350 ml"
+                  }
+            },
+            {
+                "title": {
                     "en": "Diameter",
                     "hr": "Promjer",
                     "de": "Durchmesser"
@@ -3695,9 +3771,9 @@
             },
             {
                 "title": {
-                    "en": "Width (+-5%)",
-                    "hr": "Visina (+-5%)",
-                    "de": "Höhe (+-5%)"
+                    "en": "Width",
+                    "hr": "Visina",
+                    "de": "Höhe"
                 },
                 "text": "118,6 +- 0,5 mm"
             },

@@ -23,6 +23,17 @@ export class ContentComponent implements AfterContentInit {
   public shopcategory = shopcategory;
   public shoptags = shoptags;
 
+  onPageChange(newPage: number) {
+    this.page = newPage;
+    
+    // Update URL to reflect the current page
+    this.router.navigate([], { 
+      relativeTo: this.route, 
+      queryParams: { page: this.page }, 
+      queryParamsHandling: 'merge'
+    });
+  }
+
   // Category Filter
   public setCategory(id: any) {
     this.shopcategory = id;
@@ -74,6 +85,16 @@ export class ContentComponent implements AfterContentInit {
       this.setCategory(catId);
       this.setTag(tagId);
       this.setPosts();
+    });
+     // Handle page query parameter
+     this.route.queryParams.pipe(
+      takeUntil(this.destroyed$)
+    ).subscribe(params => {
+      if (params.page) {
+        this.page = +params.page;
+      } else {
+        this.page = 1;
+      }
     });
   }
   updateLanguageContent(language: string) {

@@ -1,5 +1,185 @@
 [
     {
+        "id": 19,
+        "title": {
+            "en": "Fork 8/1 MULTI-USE WHITE",
+            "hr": "Vilica 8/1 VIŠEKRATNA BIJELA",
+            "de": "Gabel 8/1 MULTIPLE WEISS"
+          },
+        "image": [
+            "assets/img/shop/81vilice.png"
+        ],
+        "category": [
+            6
+        ],
+        "additional": [
+            {
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651418"
+            },
+            {
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
+            },
+            {
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": {
+                    "en": "White",
+                    "hr": "Bijela",
+                    "de": "Weiss"
+                  }
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "8"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Pakiranja u kutiji",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "title": {
+            "en": "Spoon 8/1 MULTI-USE WHITE",
+            "hr": "Žlica 8/1 VIŠEKRATNA BIJELA",
+            "de": "Löffel 8/1 MULTI-USE WEISS"
+          },
+        "image": [
+            "assets/img/shop/81zilica.png"
+        ],
+        "category": [
+            6
+        ],
+        "additional": [
+            {
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651388"
+            },
+            {
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
+            },
+            {
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": {
+                    "en": "White",
+                    "hr": "Bijela",
+                    "de": "Weiss"
+                  }
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "8"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Pakiranja u kutiji",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "title": {
+            "en": "Knife 8/1 MULTI-USE WHITE",
+            "hr": "Nož 8/1 VIŠEKRATNI BIJELI",
+            "de": "Messer 8/1 MULTIPLE WEISS"
+          },
+        "image": [
+            "assets/img/shop/81noz.png"
+        ],
+        "category": [
+            6
+        ],
+        "additional": [
+            {
+                "title": {
+                    "en": "Bar code:",
+                    "hr": "Bar kod:",
+                    "de": "Barcode:"
+                },
+                "text": "3875000651449"
+            },
+            {
+                "title": {
+                    "en": "Material",
+                    "hr": "Materijal",
+                    "de": "Material"
+                },
+                "text": "Polystyrene"
+            },
+            {
+                "title": {
+                    "en": "Color",
+                    "hr": "Boja",
+                    "de": "Farbe"
+                },
+                "text": {
+                    "en": "White",
+                    "hr": "Bijela",
+                    "de": "Weiss"
+                  }
+            },
+            {
+                "title": {
+                    "en": "A piece in a package",
+                    "hr": "Komada u pakovanju",
+                    "de": "Ein Stück in einer Packung"
+                },
+                "text": "8"
+            },
+            {
+                "title": {
+                    "en": "Packaging in a box",
+                    "hr": "Pakiranja u kutiji",
+                    "de": "Verpackung im Karton"
+                },
+                "text": "24"
+            }
+        ]
+    },
+    {
         "id": 1,
         "title": {
             "en": "Cups 0,2 L CE 100/1 EXCITE white",
@@ -12,7 +192,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -69,9 +248,9 @@
                     "de": "Gewicht"
                 },
                 "text": {
-                    "en": "2,5 g",
-                    "hr": "2,5 g",
-                    "de": "2,5 g"
+                    "en": "2,3 g",
+                    "hr": "2,3 g",
+                    "de": "2,3 g"
                   }
             },
             {
@@ -137,7 +316,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -263,7 +441,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -390,7 +567,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -516,7 +692,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -642,7 +817,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -757,7 +931,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -871,7 +1044,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -972,120 +1144,6 @@
         ] 
     },
     {
-        "id": 9,
-        "title": {
-            "en": "Cups 200 cc 50/1 LIME",
-            "hr": "Čaše 200 cc 50/1 LIMETA",
-            "de": "Koffer 200 cc 50/1 KALK"
-          },
-        "image": [
-            "assets/img/shop/cupsLIME.jpg"
-        ],
-        "category": [
-            1
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": {
-                    "en": "3875000650848",
-                    "hr": "3875000650848",
-                    "de": "3875000650848"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": {
-                    "en": "Polypropylene",
-                    "hr": "Polypropylene",
-                    "de": "Polypropylene"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "lime",
-                    "hr": "lime",
-                    "de": "kalk"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": {
-                    "en": "2,3 g",
-                    "hr": "2,3 g",
-                    "de": "2,3 g"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Diameter",
-                    "hr": "Promjer",
-                    "de": "Durchmesser"
-                },
-                "text": {
-                    "en": "69,3 mm",
-                    "hr": "69,3 mm",
-                    "de": "69,3 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Height",
-                    "hr": "Visina",
-                    "de": "Höhe"
-                },
-                "text": {
-                    "en": "83,7 mm",
-                    "hr": "83,7 mm",
-                    "de": "83,7 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": {
-                    "en": "50",
-                    "hr": "50",
-                    "de": "50"
-                  }
-                
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": {
-                    "en": "30",
-                    "hr": "30",
-                    "de": "30"
-                  }
-            }
-        ] 
-    },
-    {
         "id": 10,
         "title": {
             "en": "Cups 350 cc 50/1 BUBBLE",
@@ -1099,7 +1157,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -1212,233 +1269,6 @@
         ] 
     },
     {
-        "id": 11,
-        "title": {
-            "en": "Cups 350 cc 50/1 NECTAR",
-            "hr": "Čaše 350 cc 50/1 NEKTAR",
-            "de": "Koffer 350 cc 50/1 NEKTAR"
-          },
-        "image": [
-            "assets/img/shop/cupsNECTAR.jpg",
-            "assets/img/shop/cupsNECTAR1.jpg"
-        ],
-        "category": [
-            1
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": {
-                    "en": "3875000650213",
-                    "hr": "3875000650213",
-                    "de": "3875000650213"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": {
-                    "en": "polystyrene",
-                    "hr": "polystyrene",
-                    "de": "polystyrene"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "Transparent",
-                    "hr": "Transparentna",
-                    "de": "Transparent"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": {
-                    "en": "7 g",
-                    "hr": "7 g",
-                    "de": "7 g"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Diameter",
-                    "hr": "Promjer",
-                    "de": "Durchmesser"
-                },
-                "text": {
-                    "en": "82,2 mm",
-                    "hr": "82,2 mm",
-                    "de": "82,2 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Height",
-                    "hr": "Visina",
-                    "de": "Höhe"
-                },
-                "text": {
-                    "en": "118,1 mm",
-                    "hr": "118,1 mm",
-                    "de": "118,1 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": {
-                    "en": "50",
-                    "hr": "50",
-                    "de": "50"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": {
-                    "en": "20",
-                    "hr": "20",
-                    "de": "20"
-                  }
-            }
-        ] 
-    },
-    {
-        "id": 12,
-        "title": {
-            "en": "Injected 0.2 L 10/1",
-            "hr": "Brizgane 0.2 L 10/1",
-            "de": "Gespritzt 0.2 L 10/1"
-          },
-        "image": [
-            "assets/img/shop/brizgane10.jpg"
-        ],
-        "category": [
-            1
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": {
-                    "en": "3877000128846",
-                    "hr": "3877000128846",
-                    "de": "3877000128846"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": {
-                    "en": "polystyrene",
-                    "hr": "polystyrene",
-                    "de": "polystyrene"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "Transparent",
-                    "hr": "Transparentna",
-                    "de": "Transparent"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": {
-                    "en": "13,3 g",
-                    "hr": "13,3 g",
-                    "de": "13,3 g"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Diameter",
-                    "hr": "Promjer",
-                    "de": "Durchmesser"
-                },
-                "text": {
-                    "en": "60 mm",
-                    "hr": "60 mm",
-                    "de": "60 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Height",
-                    "hr": "Visina",
-                    "de": "Höhe"
-                },
-                "text": {
-                    "en": "90 mm",
-                    "hr": "90 mm",
-                    "de": "90 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": {
-                    "en": "10",
-                    "hr": "10",
-                    "de": "10"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": {
-                    "en": "16",
-                    "hr": "16",
-                    "de": "16"
-                  }
-            }
-        ] 
-    },
-    {
         "id": 13,
         "title": {
             "en": "Cups 550 cc 25/1 FAMILY",
@@ -1452,7 +1282,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -1566,7 +1395,6 @@
         "category": [
             1
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -1679,232 +1507,6 @@
         ] 
     },
     {
-        "id": 15,
-        "title": {
-            "en": "Injected 0.02 - 0.04 l 15/1",
-            "hr": "Brizgane 0.02 - 0.04 l 15/1",
-            "de": "Gespritzt 0.02 - 0.04 15/1"
-          },
-        "image": [
-            "assets/img/shop/brizgane15.jpg"
-        ],
-        "category": [
-            1
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": {
-                    "en": "3877000128419",
-                    "hr": "3877000128419",
-                    "de": "3877000128419"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": {
-                    "en": "polystyrene",
-                    "hr": "polystyrene",
-                    "de": "polystyrene"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "Transparent",
-                    "hr": "Transparentna",
-                    "de": "Transparent"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": {
-                    "en": "3,7 g",
-                    "hr": "3,7 g",
-                    "de": "3,7 g"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Diameter",
-                    "hr": "Promjer",
-                    "de": "Durchmesser"
-                },
-                "text": {
-                    "en": "45 mm",
-                    "hr": "45 mm",
-                    "de": "45 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Height",
-                    "hr": "Visina",
-                    "de": "Höhe"
-                },
-                "text": {
-                    "en": "47 mm",
-                    "hr": "47 mm",
-                    "de": "47 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": {
-                    "en": "15",
-                    "hr": "15",
-                    "de": "15"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": {
-                    "en": "15",
-                    "hr": "15",
-                    "de": "15"
-                  }
-            }
-        ] 
-    },
-    {
-        "id": 16,
-        "title": {
-            "en": "Injected 0.02 - 0.04 l 35/1",
-            "hr": "Brizgane 0.02 - 0.04 l 35/1",
-            "de": "Gespritzt 0.02 - 0.04 35/1"
-          },
-        "image": [
-            "assets/img/shop/brizgane35.jpg"
-        ],
-        "category": [
-            1
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional":[
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": {
-                    "en": "3877000128044",
-                    "hr": "3877000128044",
-                    "de": "3877000128044"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": {
-                    "en": "polystyrene",
-                    "hr": "polystyrene",
-                    "de": "polystyrene"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "Transparent",
-                    "hr": "Transparentna",
-                    "de": "Transparent"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": {
-                    "en": "3,7 g",
-                    "hr": "3,7 g",
-                    "de": "3,7 g"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Diameter",
-                    "hr": "Promjer",
-                    "de": "Durchmesser"
-                },
-                "text": {
-                    "en": "45 mm",
-                    "hr": "45 mm",
-                    "de": "45 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Height",
-                    "hr": "Visina",
-                    "de": "Höhe"
-                },
-                "text": {
-                    "en": "47 mm",
-                    "hr": "47 mm",
-                    "de": "47 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": {
-                    "en": "35 mm",
-                    "hr": "35 mm",
-                    "de": "35 mm"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": {
-                    "en": "24",
-                    "hr": "24",
-                    "de": "24"
-                  }
-            }
-        ] 
-    },
-    {
         "id": 17,
         "title": {
             "en": "Vending cups 166 cc 100/1 Antistatic",
@@ -1918,7 +1520,6 @@
         "category": [
             2
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2031,7 +1632,6 @@
         "category": [
             4
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2095,67 +1695,7 @@
             }
         ]
     },
-    {
-        "id": 19,
-        "title": {
-            "en": "Fork 8/1 MULTI-USE WHITE",
-            "hr": "Vilica 8/1 VIŠEKRATNA BIJELA",
-            "de": "Gabel 8/1 MULTIPLE WEISS"
-          },
-        "image": [
-            "assets/img/shop/81vilice.png"
-        ],
-        "category": [
-            6
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": "3875000651418"
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": "Polystyrene"
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "White",
-                    "hr": "Bijela",
-                    "de": "Weiss"
-                  }
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": "8"
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Pakiranja u kutiji",
-                    "de": "Verpackung im Karton"
-                },
-                "text": "24"
-            }
-        ]
-    },
+   
     {
         "id": 20,
         "title": {
@@ -2170,7 +1710,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2256,7 +1795,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2318,7 +1856,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2388,7 +1925,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2444,136 +1980,7 @@
             }
         ]
     },
-    {
-        "id": 24,
-        "title": {
-            "en": "Fork 100/1 TRANSPARENT",
-            "hr": "Vilica 100/1 TRANSPARENT",
-            "de": "Gabel 100/1 TRANSPARENT"
-          },
-        "image": [
-            "assets/img/shop/vilicatrans.jpg"
-        ],
-        "category": [
-            6
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": "3877000128549"
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": "Polystyrene"
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "Transparent",
-                    "hr": "Transparentna",
-                    "de": "Transparent"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": "70"
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": "10"
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": "16"
-            }
-        ]
-    },
-    {
-        "id": 25,
-        "title": {
-            "en": "Spoon 8/1 MULTI-USE WHITE",
-            "hr": "Žlica 8/1 VIŠEKRATNA BIJELA",
-            "de": "Löffel 8/1 MULTI-USE WEISS"
-          },
-        "image": [
-            "assets/img/shop/81zilica.png"
-        ],
-        "category": [
-            6
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": "3875000651388"
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": "Polystyrene"
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "White",
-                    "hr": "Bijela",
-                    "de": "Weiss"
-                  }
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": "8"
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Pakiranja u kutiji",
-                    "de": "Verpackung im Karton"
-                },
-                "text": "24"
-            }
-        ]
-    },
+  
     {
         "id": 26,
         "title": {
@@ -2588,7 +1995,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2658,7 +2064,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2720,7 +2125,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2790,7 +2194,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2860,7 +2263,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -2917,146 +2319,6 @@
         ]
     },
     {
-        "id": 31,
-        "title": {
-            "en": "Žlica 2/1 SALAD SET",
-            "hr": "Žlica 2/1 SALAD SET",
-            "de": "Löffel 2/1 SALATSET"
-          },
-        "image": [
-            "assets/img/shop/saladset.jpg",
-            "assets/img/shop/salatset1.jpg"
-        ],
-        "category": [
-            6
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": "3877000128396"
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": "Polystyrene"
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "Transparent",
-                    "hr": "Transparentna",
-                    "de": "Transparent"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": "n/a"
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": "2"
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": "16"
-            }
-        ]
-    },
-    {
-        "id": 32,
-        "title": {
-            "en": "Spoon 2/1 CAKE SET",
-            "hr": "Žlica 2/1 CAKE SET",
-            "de": "Löffel 2/1 KUCHENSET"
-          },
-        "image": [
-            "assets/img/shop/cake.jpg",
-            "assets/img/shop/cake1.jpg"
-        ],
-        "category": [
-            6
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": "3877000128525"
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": "Polystyrene"
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "Transparent",
-                    "hr": "Transparentna",
-                    "de": "Transparent"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": "n/a"
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": "2"
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": "16"
-            }
-        ]
-    },
-    {
         "id": 33,
         "title": {
             "en": "Espresso spoon 500/1",
@@ -3069,7 +2331,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -3138,7 +2399,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -3194,67 +2454,7 @@
             }
         ]
     },
-    {
-        "id": 35,
-        "title": {
-            "en": "Knife 8/1 MULTI-USE WHITE",
-            "hr": "Nož 8/1 VIŠEKRATNI BIJELI",
-            "de": "Messer 8/1 MULTIPLE WEISS"
-          },
-        "image": [
-            "assets/img/shop/81noz.png"
-        ],
-        "category": [
-            6
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": "3875000651449"
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": "Polystyrene"
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "White",
-                    "hr": "Bijela",
-                    "de": "Weiss"
-                  }
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": "8"
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Pakiranja u kutiji",
-                    "de": "Verpackung im Karton"
-                },
-                "text": "24"
-            }
-        ]
-    },
+    
     {
         "id": 36,
         "title": {
@@ -3269,7 +2469,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -3339,7 +2538,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -3401,7 +2599,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -3471,7 +2668,6 @@
         "category": [
             6
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -3532,76 +2728,6 @@
         ]
     },
     {
-        "id": 40,
-        "title": {
-            "en": "Knife 10/1 transparent",
-            "hr": "Nož 10/1 transparent",
-            "de": "Messer 10/1 transparent"
-          },
-        "image": [
-            "assets/img/shop/noz10trans.jpg",
-            "assets/img/shop/noz101trans.jpg"
-        ],
-        "category": [
-            6
-        ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
-        "additional": [
-            {
-                "title": {
-                    "en": "Bar code:",
-                    "hr": "Bar kod:",
-                    "de": "Barcode:"
-                },
-                "text": "3877000128556"
-            },
-            {
-                "title": {
-                    "en": "Material",
-                    "hr": "Materijal",
-                    "de": "Material"
-                },
-                "text": "Polystyrene"
-            },
-            {
-                "title": {
-                    "en": "Color",
-                    "hr": "Boja",
-                    "de": "Farbe"
-                },
-                "text": {
-                    "en": "Transparent",
-                    "hr": "Transparentna",
-                    "de": "Transparent"
-                  }
-            },
-            {
-                "title": {
-                    "en": "Weight",
-                    "hr": "Težina",
-                    "de": "Gewicht"
-                },
-                "text": "61"
-            },
-            {
-                "title": {
-                    "en": "A piece in a package",
-                    "hr": "Komada u pakovanju",
-                    "de": "Ein Stück in einer Packung"
-                },
-                "text": "10"
-            },
-            {
-                "title": {
-                    "en": "Packaging in a box",
-                    "hr": "Komada u pakovanju",
-                    "de": "Verpackung im Karton"
-                },
-                "text": "20"
-            }
-        ]
-    },
-    {
         "id": 41,
         "title": {
             "en": "Paper cups 200 (230)ml 50/1",
@@ -3614,7 +2740,6 @@
         "category": [
             5
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {
@@ -3711,7 +2836,6 @@
         "category": [
             5
         ],
-        "shortdescription": "<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo inventore veritatis</p><p> Perspiciatis unde omnis iste sit voluptatem accusantium dolorem que laudantium, totam rem aperiaaquipsa quae ab illo</p>",
         "additional": [
             {
                 "title": {

@@ -25,9 +25,12 @@
                     </div>
                 </div>
                 <div class="pagination justify-content-center">
-                    <pagination-controls (pageChange)="page = $event" responsive="true"
-                    previousLabel="<"
-                    nextLabel=">"></pagination-controls>
+                    <pagination-controls 
+    (pageChange)="onPageChange($event)" 
+    responsive="true"
+    previousLabel="<"
+    nextLabel=">"
+    ></pagination-controls>
                 </div>
             </div>
         </div>

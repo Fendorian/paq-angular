@@ -1123,6 +1123,15 @@ class ContentComponent {
         this.default = "Default";
         this.byName = "By Name";
     }
+    onPageChange(newPage) {
+        this.page = newPage;
+        // Update URL to reflect the current page
+        this.router.navigate([], {
+            relativeTo: this.route,
+            queryParams: { page: this.page },
+            queryParamsHandling: 'merge'
+        });
+    }
     // Category Filter
     setCategory(id) {
         this.shopcategory = id;
@@ -1166,6 +1175,15 @@ class ContentComponent {
             this.setCategory(catId);
             this.setTag(tagId);
             this.setPosts();
+        });
+        // Handle page query parameter
+        this.route.queryParams.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["takeUntil"])(this.destroyed$)).subscribe(params => {
+            if (params.page) {
+                this.page = +params.page;
+            }
+            else {
+                this.page = 1;
+            }
         });
     }
     updateLanguageContent(language) {
@@ -1276,7 +1294,7 @@ function View_ContentComponent_1(_l) { return _angular_core__WEBPACK_IMPORTED_MO
         ad = (pd_0 && ad);
     } return ad; }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](8, 671744, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], { routerLink: [0, "routerLink"] }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](9, null, ["", ""]))], function (_ck, _v) { var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "/product-details/", _v.context.$implicit.id, ""); _ck(_v, 3, 0, currVal_0); var currVal_5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "/product-details/", _v.context.$implicit.id, ""); _ck(_v, 8, 0, currVal_5); }, function (_ck, _v) { var currVal_1 = _v.context.$implicit.image[0]; var currVal_2 = _v.context.$implicit.title; _ck(_v, 4, 0, currVal_1, currVal_2); var currVal_3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 8).target; var currVal_4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 8).href; _ck(_v, 7, 0, currVal_3, currVal_4); var currVal_6 = _v.context.$implicit.localizedTitle; _ck(_v, 9, 0, currVal_6); }); }
 function View_ContentComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 17, "section", [["class", "shop-page-wrap section-gap"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 16, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 15, "div", [["class", "row justify-content-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 2, "div", [["class", "col-12 order-1"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "div", [["class", "row shop-top-bar justify-content-between"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 0, "div", [["class", "col-lg-3 col-6 col-tiny-12"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 2, "div", [["class", "col-lg-3 col-md-10 order-3 order-lg-2"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 1, "app-shopsidebar", [], null, null, null, _shared_shopsidebar_shopsidebar_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_ShopsidebarComponent_0"], _shared_shopsidebar_shopsidebar_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_ShopsidebarComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](8, 114688, null, 0, _shared_shopsidebar_shopsidebar_component__WEBPACK_IMPORTED_MODULE_5__["ShopsidebarComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_6__["LanguageService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 8, "div", [["class", "col-lg-9 order-2 order-lg-2"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 4, "div", [["class", "product-loop row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 3, null, View_ContentComponent_1)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](12, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], { ngForOf: [0, "ngForOf"] }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpod"](13, { itemsPerPage: 0, currentPage: 1 }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, ngx_pagination__WEBPACK_IMPORTED_MODULE_7__["PaginatePipe"], [ngx_pagination__WEBPACK_IMPORTED_MODULE_7__["PaginationService"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 2, "div", [["class", "pagination justify-content-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 1, "pagination-controls", [["nextLabel", ">"], ["previousLabel", "<"], ["responsive", "true"]], null, [[null, "pageChange"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("pageChange" === en)) {
-        var pd_0 = ((_co.page = $event) !== false);
+        var pd_0 = (_co.onPageChange($event) !== false);
         ad = (pd_0 && ad);
     } return ad; }, _node_modules_ngx_pagination_dist_ngx_pagination_ngfactory__WEBPACK_IMPORTED_MODULE_8__["View_PaginationControlsComponent_0"], _node_modules_ngx_pagination_dist_ngx_pagination_ngfactory__WEBPACK_IMPORTED_MODULE_8__["RenderType_PaginationControlsComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](17, 49152, null, 0, ngx_pagination__WEBPACK_IMPORTED_MODULE_7__["PaginationControlsComponent"], [], { responsive: [0, "responsive"], previousLabel: [1, "previousLabel"], nextLabel: [2, "nextLabel"] }, { pageChange: "pageChange" })], function (_ck, _v) { var _co = _v.component; _ck(_v, 8, 0); var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 12, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 14).transform(_co.shopblock, _ck(_v, 13, 0, 6, _co.page))); _ck(_v, 12, 0, currVal_0); var currVal_1 = "true"; var currVal_2 = "<"; var currVal_3 = ">"; _ck(_v, 17, 0, currVal_1, currVal_2, currVal_3); }, null); }
 function View_ContentComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-content", [], null, null, null, View_ContentComponent_0, RenderType_ContentComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 1294336, null, 0, _content_component__WEBPACK_IMPORTED_MODULE_9__["ContentComponent"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _language_service_service__WEBPACK_IMPORTED_MODULE_6__["LanguageService"]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }

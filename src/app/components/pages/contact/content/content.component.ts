@@ -12,13 +12,14 @@ export class ContentComponent implements OnInit {
   constructor(private languageService: LanguageService) { }
   public sendEmail(e: Event) {
     e.preventDefault();
-    emailjs.sendForm('smtp_server', 'template_8uQnFG6N_clone', e.target as HTMLFormElement, 'user_XWPdjpTv0DgrQb9FN3tWr')
+    // emailjs.sendForm('smtp_server', 'template_8uQnFG6N_clone', e.target as HTMLFormElement, 'user_XWPdjpTv0DgrQb9FN3tWr')
+    emailjs.sendForm('service_p4nebhq', 'template_3zuw5ut', e.target as HTMLFormElement, 'FkRjUasXyIK8rdAHz')
       .then((result: EmailJSResponseStatus) => {
-        alert("This form has been submitted.");
+        alert("Mail je uspešno prosleđen.");
         // location.href = '#';
         console.log(result.text);
       }, (error) => {
-        alert("This form has been not submitted.");
+        alert("Mail nije uspešno prosleđen.");
         location.href = '#';
         console.log(error.text);
       });

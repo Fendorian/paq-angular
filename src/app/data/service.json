@@ -76,7 +76,7 @@
     {
         "id": 3,
         "icon": "flaticon-diagram",
-        "shadowicon": "assets/img/shop/sans3.png",
+        "shadowicon": "assets/img/icons/sans3.png",
         "img": "assets/img/feature/03.jpg",
         "title": {
             "en": "Accessories",

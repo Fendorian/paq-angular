@@ -2336,7 +2336,7 @@ header.header-three .header-nav::before {
 }
 @media (max-width: 1199px) {
   .service-boxes .service-box .icon img {
-    max-width: 80px;
+    max-width: 150px;
   }
 }
 .service-boxes .service-box h3 {

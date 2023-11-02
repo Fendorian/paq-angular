@@ -21,7 +21,7 @@ export class ServiceComponent implements OnInit {
       if (language === 'en') {
         this.titleText = "What We Do";
       } else if (language === 'hr') {
-        this.titleText = 'Šta Mi Radimo';
+        this.titleText = 'Što Mi Radimo';
       } else if (language === 'de') {
         this.titleText = 'Was Wir Tun';
       } else {

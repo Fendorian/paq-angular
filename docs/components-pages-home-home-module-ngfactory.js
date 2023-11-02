@@ -1298,7 +1298,7 @@ class ServiceComponent {
             this.titleText = "What We Do";
         }
         else if (language === 'hr') {
-            this.titleText = 'Šta Mi Radimo';
+            this.titleText = 'Što Mi Radimo';
         }
         else if (language === 'de') {
             this.titleText = 'Was Wir Tun';
@@ -1367,17 +1367,17 @@ class BannerComponent {
             img: "assets/img/banner/topslider.jpg",
             subtitle: "PAQ is one of the leading manufacturers of PS and PP cups for the food industry in the region.",
             title: "Visit our digital product world."
-        };
-        const hrBanner = {
+          };
+          const hrBanner = {
             img: "assets/img/banner/topslider.jpg",
-            subtitle: "Posjetite naš svijet digitalnih proizvoda.",
-            title: "Croatian Making Difference <br> Growth Your Business <br> With Modern Ideas"
-        };
-        const deBanner = {
+            subtitle: "PAQ je jedan od vodećih proizvođača PS i PP čaša za prehrambenu industriju u regiji.",
+            title: "Posjetite naš svijet digitalnih proizvoda."
+          };
+          const deBanner = {
             img: "assets/img/banner/topslider.jpg",
             subtitle: "PAQ ist regionweit einer der führenden Hersteller von PS-und PP-Bechern für die Lebensmittelindustrie.",
             title: "Besuchen Sie unsere digitale Produktwelt."
-        };
+          };
         switch (language) {
             case 'en':
                 this.banner = [enBanner];

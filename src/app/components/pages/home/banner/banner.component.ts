@@ -48,8 +48,8 @@ export class BannerComponent implements OnInit {
     };
     const hrBanner = {
       img: "assets/img/banner/topslider.jpg",
-      subtitle: "Posjetite naš svijet digitalnih proizvoda.",
-      title: "Croatian Making Difference <br> Growth Your Business <br> With Modern Ideas"
+      subtitle: "PAQ je jedan od vodećih proizvođača PS i PP čaša za prehrambenu industriju u regiji.",
+      title: "Posjetite naš svijet digitalnih proizvoda."
     };
     const deBanner = {
       img: "assets/img/banner/topslider.jpg",

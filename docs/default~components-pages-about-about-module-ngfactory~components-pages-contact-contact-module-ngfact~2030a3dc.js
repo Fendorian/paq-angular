@@ -1,41 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~components-pages-about-about-module-ngfactory~components-pages-contact-contact-module-ngfact~2030a3dc"],{
 
-/***/ "2Q0+":
-/*!*********************************************!*\
-  !*** ./src/app/language-service.service.ts ***!
-  \*********************************************/
-/*! exports provided: LanguageService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LanguageService", function() { return LanguageService; });
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ "qCKp");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "8Y7J");
-
-
-class LanguageService {
-    constructor() {
-        this.defaultLanguage = 'en';
-        this.languageSource = new rxjs__WEBPACK_IMPORTED_MODULE_0__["BehaviorSubject"](this.getStoredLanguage() || this.defaultLanguage);
-        this.currentLanguage = this.languageSource.asObservable();
-    }
-    changeLanguage(language) {
-        this.languageSource.next(language);
-        localStorage.setItem('language', language);
-    }
-    getCurrentLanguage() {
-        return this.languageSource.getValue();
-    }
-    getStoredLanguage() {
-        return localStorage.getItem('language');
-    }
-}
-LanguageService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({ factory: function LanguageService_Factory() { return new LanguageService(); }, token: LanguageService, providedIn: "root" });
-
-
-/***/ }),
-
 /***/ "8L2s":
 /*!*************************************!*\
   !*** ./src/app/data/instagram.json ***!
@@ -63,7 +27,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
  * tslint:disable
  */
-var styles = ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJmb290ZXIuY29tcG9uZW50LmNzcyJ9 */"];
+var styles = [".footer-text[_ngcontent-%COMP%] {\r\n    display: flex;\r\n    color: white;\r\n    margin: auto;\r\n    justify-content: center;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7SUFDWixZQUFZO0lBQ1osdUJBQXVCO0FBQzNCIiwiZmlsZSI6ImZvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZvb3Rlci10ZXh0IHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxufSJdfQ== */"];
 
 
 
@@ -151,7 +115,7 @@ __webpack_require__.r(__webpack_exports__);
 var styles_FooterComponent = [_footer_component_css_shim_ngstyle__WEBPACK_IMPORTED_MODULE_0__["styles"]];
 var RenderType_FooterComponent = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵcrt"]({ encapsulation: 0, styles: styles_FooterComponent, data: {} });
 
-function View_FooterComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 45, "footer", [], [[8, "className", 0]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 44, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 43, "div", [["class", "footer-widget"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 42, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 19, "div", [["class", "col-lg-3 col-sm-6 order-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 18, "div", [["class", "widget nav-widget"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "h4", [["class", "widget-title"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](7, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 15, "ul", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](11, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](14, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](17, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](20, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](23, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 21, "div", [["class", "col-lg-5 order-lg-4 order-5"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 20, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, null, null, 19, "div", [["class", "col-lg-6 col-sm-6"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 18, "div", [["class", "widget nav-widget"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 1, "h4", [["class", "widget-title"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](29, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 15, "ul", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](33, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](34, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](35, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](36, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](37, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](38, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](39, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](40, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](41, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](42, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](43, 0, null, null, 2, "li", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](44, 0, null, null, 1, "a", [["href", "#"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](45, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.layout; _ck(_v, 0, 0, currVal_0); var currVal_1 = _co.footerTranslations[_co.selectedLanguage].quickLinks; _ck(_v, 7, 0, currVal_1); var currVal_2 = _co.footerTranslations[_co.selectedLanguage].companyHistory; _ck(_v, 11, 0, currVal_2); var currVal_3 = _co.footerTranslations[_co.selectedLanguage].latestNewsBlog; _ck(_v, 14, 0, currVal_3); var currVal_4 = _co.footerTranslations[_co.selectedLanguage].popularServices; _ck(_v, 17, 0, currVal_4); var currVal_5 = _co.footerTranslations[_co.selectedLanguage].businessConsulting; _ck(_v, 20, 0, currVal_5); var currVal_6 = _co.footerTranslations[_co.selectedLanguage].financialPlanning; _ck(_v, 23, 0, currVal_6); var currVal_7 = _co.footerTranslations[_co.selectedLanguage].company; _ck(_v, 29, 0, currVal_7); var currVal_8 = _co.footerTranslations[_co.selectedLanguage].aboutCompany; _ck(_v, 33, 0, currVal_8); var currVal_9 = _co.footerTranslations[_co.selectedLanguage].worldWideClients; _ck(_v, 36, 0, currVal_9); var currVal_10 = _co.footerTranslations[_co.selectedLanguage].happyPeoples; _ck(_v, 39, 0, currVal_10); var currVal_11 = _co.footerTranslations[_co.selectedLanguage].winningAwards; _ck(_v, 42, 0, currVal_11); var currVal_12 = _co.footerTranslations[_co.selectedLanguage].companyStatics; _ck(_v, 45, 0, currVal_12); }); }
+function View_FooterComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 3, "footer", [], [[8, "className", 0]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "div", [["class", "footer-text"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Made by Klungberg "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.layout; _ck(_v, 0, 0, currVal_0); }); }
 function View_FooterComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-footer", [], null, null, null, View_FooterComponent_0, RenderType_FooterComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _footer_component__WEBPACK_IMPORTED_MODULE_2__["FooterComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_3__["LanguageService"]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 var FooterComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-footer", _footer_component__WEBPACK_IMPORTED_MODULE_2__["FooterComponent"], View_FooterComponent_Host_0, { layout: "layout", logo: "logo", shape: "shape", shape2: "shape2", shapeclass: "shapeclass", shape2class: "shape2class" }, {}, []);
 
@@ -361,7 +325,7 @@ class SharedModule {
 /*! exports provided: 0, 1, 2, 3, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"translations\":{\"en\":{\"linkText\":\"Home\"},\"hr\":{\"linkText\":\"Početna\"},\"de\":{\"linkText\":\"Startseite\"}},\"link\":\"/\"},{\"id\":2,\"link\":\"/about\",\"translations\":{\"en\":{\"linkText\":\"About us\"},\"hr\":{\"linkText\":\"O nama\"},\"de\":{\"linkText\":\"Über uns\"}}},{\"id\":3,\"link\":\"/shop\",\"translations\":{\"en\":{\"linkText\":\"Products\"},\"hr\":{\"linkText\":\"Produkti\"},\"de\":{\"linkText\":\"Produkte\"}}},{\"id\":4,\"link\":\"/contact\",\"translations\":{\"en\":{\"linkText\":\"Contact\"},\"hr\":{\"linkText\":\"Kontakt\"},\"de\":{\"linkText\":\"Kontakt\"}}}]");
+module.exports = JSON.parse("[{\"id\":1,\"translations\":{\"en\":{\"linkText\":\"Home\"},\"hr\":{\"linkText\":\"Početna\"},\"de\":{\"linkText\":\"Startseite\"}},\"link\":\"/\"},{\"id\":2,\"link\":\"/about\",\"translations\":{\"en\":{\"linkText\":\"About us\"},\"hr\":{\"linkText\":\"O nama\"},\"de\":{\"linkText\":\"Über uns\"}}},{\"id\":3,\"link\":\"/shop\",\"translations\":{\"en\":{\"linkText\":\"Products\"},\"hr\":{\"linkText\":\"Proizvodi\"},\"de\":{\"linkText\":\"Produkte\"}}},{\"id\":4,\"link\":\"/contact\",\"translations\":{\"en\":{\"linkText\":\"Contact\"},\"hr\":{\"linkText\":\"Kontakt\"},\"de\":{\"linkText\":\"Kontakt\"}}}]");
 
 /***/ }),
 

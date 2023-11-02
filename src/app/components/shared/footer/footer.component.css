@@ -1,0 +1,6 @@
+.footer-text {
+    display: flex;
+    color: white;
+    margin: auto;
+    justify-content: center;
+}

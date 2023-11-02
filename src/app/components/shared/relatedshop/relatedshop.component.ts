@@ -47,7 +47,7 @@ export class RelatedshopComponent implements OnInit {
   if (language === 'en') {
     this.relatedText = 'Related Products';
   } else if (language === 'hr') {
-    this.relatedText = 'Slicni Proizvodi.';
+    this.relatedText = 'Povezani proizvodi';
   } else if (language === 'de') {
     this.relatedText = 'Verwandte Produkte.';
   } else {

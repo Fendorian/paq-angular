@@ -8,6 +8,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { registerLocaleData } from '@angular/common';
 import localeHr from '@angular/common/locales/hr';
 import localeDe from '@angular/common/locales/de';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -37,6 +39,9 @@ registerLocaleData(localeDe, 'de');
         const language = localStorage.getItem('language');
         return language ? language : 'en';
       },
+    },
+    {
+      provide: LocationStrategy, useClass: HashLocationStrategy // Add this line
     }
   ],
   bootstrap: [AppComponent],

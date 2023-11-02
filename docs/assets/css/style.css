@@ -435,13 +435,13 @@ a, a:hover {
 }
 
 .section-gap {
-  padding-top: 130px;
+  padding-top: 30px;
   padding-bottom: 130px;
 }
 
 @media (max-width: 991px) {
   .section-gap {
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 100px;
   }
 }
@@ -1492,18 +1492,18 @@ header.header-three .header-nav::before {
 .breadcrumb-section {
   position: relative;
   z-index: 1;
-  padding: 220px 0;
+  padding: 50px 0;
 }
 
 @media (max-width: 1599px) {
   .breadcrumb-section {
-    padding: 180px 0;
+    padding: 50px 0;
   }
 }
 
 @media (max-width: 767px) {
   .breadcrumb-section {
-    padding: 120px 0;
+    padding: 50px 0;
   }
 }
 
@@ -7578,7 +7578,7 @@ header.header-three .header-nav::before {
   margin-bottom: 30px;
   position: relative;
 }
-.product-loop .single-product:hover {
+.product-loop .single-product {
   border: solid rgb(229,14,99) 2px;
   cursor: pointer;
 }
@@ -7629,7 +7629,7 @@ header.header-three .header-nav::before {
 }
 
 .product-loop .single-product .title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -8207,11 +8207,21 @@ header.header-three .header-nav::before {
   }
 }
 
+.additional-info-table {
+  border-collapse: collapse;
+}
+
+.additional-info-table th,
+.additional-info-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
 /*=======  Footer  =======*/
 footer {
-  background-color: #14212b;
+background-color: #14212b;
   position: relative;
-  padding-top: 80px;
+  padding: 20px;
   z-index: 1;
 }
 

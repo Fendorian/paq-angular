@@ -16,23 +16,27 @@
           }
     },
     {
-        "id": 3,
+        "id": 4,
         "title": {
-            "en": "Cups",
+            "en": "Paper Cups",
             "hr": "Šalice",
             "de": "Tassen"
           }
     },
     {
-        "id": 4,
-        "title": "Posude"
-    },
-    {
-        "id": 5,
-        "title": "Pribor za jelo"
+        "id":5,
+        "title": {
+            "en": "Paper cups",
+            "hr": "Papirne čaše",
+            "de": "Papierboxen"
+        }
     },
     {
         "id": 6,
-        "title": "Novo"
+        "title": {
+            "en": "Cutlery",
+            "hr": "Pribor za jelo",
+            "de": "Besteck"
+          }
     }
 ]

@@ -44,17 +44,17 @@ export class BannerComponent implements OnInit {
     const enBanner = {
       img: "assets/img/banner/topslider.jpg",
       subtitle: "PAQ is one of the leading manufacturers of PS and PP cups for the food industry in the region.",
-      title: "Visit our digital product world."
+      title: "Visit the world of our products."
     };
     const hrBanner = {
       img: "assets/img/banner/topslider.jpg",
       subtitle: "PAQ je jedan od vodećih proizvođača PS i PP čaša za prehrambenu industriju u regiji.",
-      title: "Posjetite naš svijet digitalnih proizvoda."
+      title: "Posjetite naš svijet proizvoda."
     };
     const deBanner = {
       img: "assets/img/banner/topslider.jpg",
       subtitle: "PAQ ist regionweit einer der führenden Hersteller von PS-und PP-Bechern für die Lebensmittelindustrie.",
-      title: "Besuchen Sie unsere digitale Produktwelt."
+      title: "Besuchen Sie unsere Produktwelt."
     };
 
     switch (language) {
@@ -64,7 +64,7 @@ export class BannerComponent implements OnInit {
         break;
       case 'hr':
         this.banner = [hrBanner];
-        this.buttonText = 'Produkti';
+        this.buttonText = 'Proizvodi';
         break;
       case 'de':
         this.banner = [deBanner];

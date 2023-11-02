@@ -27,11 +27,12 @@
                         <h3 class="product-name">{{item.localizedTitle}}</h3>
                         <h4 class="content-description-title">{{description}}</h4>
                           <div class="additional-info">
-                                <table>
+                                <table class="additional-info-table">
                                     <tbody>
                                          <tr *ngFor="let data of item.additional">
                                             <th>{{data.title[currentLanguage]}}</th>
-                                                        <td>{{data.text}}</td>
+                                            <td *ngIf="isObject(data.text)">{{data.text[currentLanguage]}}</td>
+                                            <td *ngIf="!isObject(data.text)">{{data.text}}</td>
                                         </tr>
                                     </tbody>
                                  </table>

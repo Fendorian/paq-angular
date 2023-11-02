@@ -63,6 +63,7 @@ var styles = ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uI
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "Ahbh":
 /*!*************************************************************************!*\
   !*** ./node_modules/ngx-slick-carousel/ngx-slick-carousel.ngfactory.js ***!
@@ -104,6 +105,8 @@ var SlickCarouselComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__
 
 /***/ }),
 
+=======
+>>>>>>> 5da7d81dca9e27f6a48d8e43615e8854cfd5cd68
 /***/ "B0QU":
 /*!************************************************************************!*\
   !*** ./node_modules/ng-circle-progress/fesm2015/ng-circle-progress.js ***!
@@ -857,15 +860,15 @@ class AboutComponent {
     }
     setParagraphText(language) {
         if (language === 'en') {
-            this.paragraph = 'We produce high-quality products on state-of-the-art facilities. At the same time, PAQ develops attractive cup shapes for its customers and thus ensures the right effects in the premium area.';
+            this.paragraph = 'We produce high-quality products on state-of-the-art facilities. At the same time, PAQ develops attractive products for its customers and thus ensures the right effects in the premium area.';
             this.buttonText = "About us";
         }
         else if (language === 'hr') {
-            this.paragraph = 'Proizvodimo proizvode visoke kvalitete u najsuvremenijim pogonima. U isto vrijeme, PAQ razvija atraktivne oblike šalica za svoje kupce i tako osigurava prave učinke u premium području.';
+            this.paragraph = 'Proizvodimo proizvode visoke kvalitete u najsuvremenijim pogonima. U isto vrijeme, PAQ razvija atraktivne proizvode za svoje kupce i tako osigurava prave učinke u premium području.';
             this.buttonText = "O nama";
         }
         else if (language === 'de') {
-            this.paragraph = 'Auf modernsten Anlagen produzieren wir hochwertige Produkte. Gleichzeitig entwickelt PAQ für seine Kunden ansprechende Becherformen und sorgt so für die richtigen Effekte im Premium-Bereich.';
+            this.paragraph = 'Wir produzieren hochwertige Produkte auf modernsten Anlagen. Gleichzeitig entwickelt PAQ attraktive Produkte für seine Kunden und sorgt so für die richtigen Effekte im Premiumbereich.';
             this.buttonText = "Über uns";
         }
         else {
@@ -956,15 +959,15 @@ __webpack_require__.r(__webpack_exports__);
 var styles_ServiceComponent = [_service_component_css_shim_ngstyle__WEBPACK_IMPORTED_MODULE_0__["styles"]];
 var RenderType_ServiceComponent = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵcrt"]({ encapsulation: 0, styles: styles_ServiceComponent, data: {} });
 
-function View_ServiceComponent_1(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 13, "div", [["class", "col-lg-4 col-md-6 col-sm-8 col-10 col-tiny-12"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 12, "div", [["class", "service-box text-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "div", [["class", "icon"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 0, "img", [], [[8, "src", 4], [8, "alt", 0]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 4, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 3, "a", [], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+function View_ServiceComponent_1(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 15, "div", [["class", "col-lg-4 col-md-6 col-sm-8 col-10 col-tiny-12"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 14, "div", [["class", "service-box text-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "div", [["class", "icon"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 0, "img", [], [[8, "src", 4], [8, "alt", 0]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 5, "h3", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 4, "a", [], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 6).onClick($event.button, $event.ctrlKey, $event.shiftKey, $event.altKey, $event.metaKey) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](6, 671744, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], { routerLink: [0, "routerLink"] }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](7, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _angular_common__WEBPACK_IMPORTED_MODULE_3__["AsyncPipe"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](10, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 2, "a", [["class", "service-link"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).onClick($event.button, $event.ctrlKey, $event.shiftKey, $event.altKey, $event.metaKey) !== false);
+    } return ad; }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](6, 671744, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], { queryParams: [0, "queryParams"], routerLink: [1, "routerLink"] }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpod"](7, { "lang": 0 }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](8, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](131072, _angular_common__WEBPACK_IMPORTED_MODULE_3__["AsyncPipe"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](11, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 3, "a", [["class", "service-link"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 13).onClick($event.button, $event.ctrlKey, $event.shiftKey, $event.altKey, $event.metaKey) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](12, 671744, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], { routerLink: [0, "routerLink"] }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 0, "i", [["class", "fal fa-long-arrow-right"]], null, null, null, null, null))], function (_ck, _v) { var _co = _v.component; var currVal_4 = _co.getLink(_v.context.index); _ck(_v, 6, 0, currVal_4); var currVal_9 = _co.getLink(_v.context.index); _ck(_v, 12, 0, currVal_9); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.shadowicon; var currVal_1 = _v.context.$implicit.title; _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 6).target; var currVal_3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 6).href; _ck(_v, 5, 0, currVal_2, currVal_3); var currVal_5 = _v.context.$implicit.title[_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 7, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 8).transform(_co.languageService.currentLanguage))]; _ck(_v, 7, 0, currVal_5); var currVal_6 = _v.context.$implicit.shortdesc; _ck(_v, 10, 0, currVal_6); var currVal_7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).target; var currVal_8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).href; _ck(_v, 11, 0, currVal_7, currVal_8); }); }
+    } return ad; }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](13, 671744, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]], { queryParams: [0, "queryParams"], routerLink: [1, "routerLink"] }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpod"](14, { "lang": 0 }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 0, "i", [["class", "fal fa-long-arrow-right"]], null, null, null, null, null))], function (_ck, _v) { var _co = _v.component; var currVal_4 = _ck(_v, 7, 0, _co.languageSwitch); var currVal_5 = _co.getRouteLink(_v.context.index); _ck(_v, 6, 0, currVal_4, currVal_5); var currVal_10 = _ck(_v, 14, 0, _co.languageSwitch); var currVal_11 = _co.getRouteLink(_v.context.index); _ck(_v, 13, 0, currVal_10, currVal_11); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.shadowicon; var currVal_1 = _v.context.$implicit.title; _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 6).target; var currVal_3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 6).href; _ck(_v, 5, 0, currVal_2, currVal_3); var currVal_6 = _v.context.$implicit.title[_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 8, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 9).transform(_co.languageService.currentLanguage))]; _ck(_v, 8, 0, currVal_6); var currVal_7 = _v.context.$implicit.shortdesc; _ck(_v, 11, 0, currVal_7); var currVal_8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 13).target; var currVal_9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 13).href; _ck(_v, 12, 0, currVal_8, currVal_9); }); }
 function View_ServiceComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 8, "section", [["class", "service-section shape-style-one section-gap grey-bg"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 7, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 2, "div", [["class", "section-title text-center both-border mb-30"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 1, "h2", [["class", "title"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](4, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 3, "div", [["class", "row service-boxes justify-content-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 2, null, View_ServiceComponent_1)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](7, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], { ngForOf: [0, "ngForOf"] }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["SlicePipe"], [])], function (_ck, _v) { var _co = _v.component; var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 7, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 8).transform(_co.service, 0, 3)); _ck(_v, 7, 0, currVal_1); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.titleText; _ck(_v, 4, 0, currVal_0); }); }
-function View_ServiceComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-service", [], null, null, null, View_ServiceComponent_0, RenderType_ServiceComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _service_component__WEBPACK_IMPORTED_MODULE_4__["ServiceComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_ServiceComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-service", [], null, null, null, View_ServiceComponent_0, RenderType_ServiceComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _service_component__WEBPACK_IMPORTED_MODULE_4__["ServiceComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 var ServiceComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-service", _service_component__WEBPACK_IMPORTED_MODULE_4__["ServiceComponent"], View_ServiceComponent_Host_0, {}, {}, []);
 
 
@@ -1126,7 +1129,11 @@ var RenderType_HomeComponent = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵcrt
 function View_HomeComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-header-one", [], null, [["window", "scroll"]], function (_v, en, $event) { var ad = true; if (("window:scroll" === en)) {
         var pd_0 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 1).onWindowScroll($event) !== false);
         ad = (pd_0 && ad);
+<<<<<<< HEAD
     } return ad; }, _shared_header_one_header_one_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["View_HeaderOneComponent_0"], _shared_header_one_header_one_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["RenderType_HeaderOneComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _shared_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_3__["HeaderOneComponent"], [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"], _language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"], _angular_router__WEBPACK_IMPORTED_MODULE_6__["Router"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "app-banner", [], null, null, null, _banner_banner_component_ngfactory__WEBPACK_IMPORTED_MODULE_7__["View_BannerComponent_0"], _banner_banner_component_ngfactory__WEBPACK_IMPORTED_MODULE_7__["RenderType_BannerComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 114688, null, 0, _banner_banner_component__WEBPACK_IMPORTED_MODULE_8__["BannerComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "app-about", [], null, null, null, _about_about_component_ngfactory__WEBPACK_IMPORTED_MODULE_9__["View_AboutComponent_0"], _about_about_component_ngfactory__WEBPACK_IMPORTED_MODULE_9__["RenderType_AboutComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 114688, null, 0, _about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "app-service", [], null, null, null, _service_service_component_ngfactory__WEBPACK_IMPORTED_MODULE_11__["View_ServiceComponent_0"], _service_service_component_ngfactory__WEBPACK_IMPORTED_MODULE_11__["RenderType_ServiceComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](7, 114688, null, 0, _service_service_component__WEBPACK_IMPORTED_MODULE_12__["ServiceComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 1, "app-whyus", [], null, null, null, _whyus_whyus_component_ngfactory__WEBPACK_IMPORTED_MODULE_13__["View_WhyusComponent_0"], _whyus_whyus_component_ngfactory__WEBPACK_IMPORTED_MODULE_13__["RenderType_WhyusComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](9, 114688, null, 0, _whyus_whyus_component__WEBPACK_IMPORTED_MODULE_14__["WhyusComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 2, "div", [["class", "footergif-container"], ["style", "margin: 60px 0 10px 0;"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 1, "app-footergif", [], null, null, null, _shared_footergif_footergif_component_ngfactory__WEBPACK_IMPORTED_MODULE_15__["View_FootergifComponent_0"], _shared_footergif_footergif_component_ngfactory__WEBPACK_IMPORTED_MODULE_15__["RenderType_FootergifComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](12, 114688, null, 0, _shared_footergif_footergif_component__WEBPACK_IMPORTED_MODULE_16__["FootergifComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "app-footer", [], null, null, null, _shared_footer_footer_component_ngfactory__WEBPACK_IMPORTED_MODULE_17__["View_FooterComponent_0"], _shared_footer_footer_component_ngfactory__WEBPACK_IMPORTED_MODULE_17__["RenderType_FooterComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 114688, [["footerComponent", 4]], 0, _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_18__["FooterComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], { layout: [0, "layout"], logo: [1, "logo"], shape: [2, "shape"], shape2: [3, "shape2"], shapeclass: [4, "shapeclass"], shape2class: [5, "shape2class"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 1, 0); _ck(_v, 3, 0); _ck(_v, 5, 0); _ck(_v, 7, 0); _ck(_v, 9, 0); _ck(_v, 12, 0); var currVal_0 = _co.classname; var currVal_1 = _co.ftlogo; var currVal_2 = _co.ftshape; var currVal_3 = _co.ftshape2; var currVal_4 = _co.ftshapeclass; var currVal_5 = _co.ftshape2class; _ck(_v, 14, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5); }, null); }
+=======
+    } return ad; }, _shared_header_one_header_one_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["View_HeaderOneComponent_0"], _shared_header_one_header_one_component_ngfactory__WEBPACK_IMPORTED_MODULE_2__["RenderType_HeaderOneComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _shared_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_3__["HeaderOneComponent"], [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"], _language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"], _angular_router__WEBPACK_IMPORTED_MODULE_6__["Router"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "app-banner", [], null, null, null, _banner_banner_component_ngfactory__WEBPACK_IMPORTED_MODULE_7__["View_BannerComponent_0"], _banner_banner_component_ngfactory__WEBPACK_IMPORTED_MODULE_7__["RenderType_BannerComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 114688, null, 0, _banner_banner_component__WEBPACK_IMPORTED_MODULE_8__["BannerComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "app-about", [], null, null, null, _about_about_component_ngfactory__WEBPACK_IMPORTED_MODULE_9__["View_AboutComponent_0"], _about_about_component_ngfactory__WEBPACK_IMPORTED_MODULE_9__["RenderType_AboutComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 114688, null, 0, _about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "app-service", [], null, null, null, _service_service_component_ngfactory__WEBPACK_IMPORTED_MODULE_11__["View_ServiceComponent_0"], _service_service_component_ngfactory__WEBPACK_IMPORTED_MODULE_11__["RenderType_ServiceComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](7, 114688, null, 0, _service_service_component__WEBPACK_IMPORTED_MODULE_12__["ServiceComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"], _angular_router__WEBPACK_IMPORTED_MODULE_6__["Router"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 1, "app-whyus", [], null, null, null, _whyus_whyus_component_ngfactory__WEBPACK_IMPORTED_MODULE_13__["View_WhyusComponent_0"], _whyus_whyus_component_ngfactory__WEBPACK_IMPORTED_MODULE_13__["RenderType_WhyusComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](9, 114688, null, 0, _whyus_whyus_component__WEBPACK_IMPORTED_MODULE_14__["WhyusComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 2, "div", [["class", "footergif-container"], ["style", "margin: 60px 0 10px 0;"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 1, "app-footergif", [], null, null, null, _shared_footergif_footergif_component_ngfactory__WEBPACK_IMPORTED_MODULE_15__["View_FootergifComponent_0"], _shared_footergif_footergif_component_ngfactory__WEBPACK_IMPORTED_MODULE_15__["RenderType_FootergifComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](12, 114688, null, 0, _shared_footergif_footergif_component__WEBPACK_IMPORTED_MODULE_16__["FootergifComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "app-footer", [], null, null, null, _shared_footer_footer_component_ngfactory__WEBPACK_IMPORTED_MODULE_17__["View_FooterComponent_0"], _shared_footer_footer_component_ngfactory__WEBPACK_IMPORTED_MODULE_17__["RenderType_FooterComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 114688, [["footerComponent", 4]], 0, _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_18__["FooterComponent"], [_language_service_service__WEBPACK_IMPORTED_MODULE_5__["LanguageService"]], { layout: [0, "layout"], logo: [1, "logo"], shape: [2, "shape"], shape2: [3, "shape2"], shapeclass: [4, "shapeclass"], shape2class: [5, "shape2class"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 1, 0); _ck(_v, 3, 0); _ck(_v, 5, 0); _ck(_v, 7, 0); _ck(_v, 9, 0); _ck(_v, 12, 0); var currVal_0 = _co.classname; var currVal_1 = _co.ftlogo; var currVal_2 = _co.ftshape; var currVal_3 = _co.ftshape2; var currVal_4 = _co.ftshapeclass; var currVal_5 = _co.ftshape2class; _ck(_v, 14, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5); }, null); }
+>>>>>>> 5da7d81dca9e27f6a48d8e43615e8854cfd5cd68
 function View_HomeComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-home", [], null, null, null, View_HomeComponent_0, RenderType_HomeComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _home_component__WEBPACK_IMPORTED_MODULE_19__["HomeComponent"], [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 var HomeComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-home", _home_component__WEBPACK_IMPORTED_MODULE_19__["HomeComponent"], View_HomeComponent_Host_0, {}, {}, []);
 
@@ -1284,9 +1291,11 @@ __webpack_require__.r(__webpack_exports__);
 var _data_service_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../../data/service.json */ "+SB1", 1);
 
 class ServiceComponent {
-    constructor(languageService) {
+    constructor(languageService, router) {
         this.languageService = languageService;
+        this.router = router;
         this.service = _data_service_json__WEBPACK_IMPORTED_MODULE_0__;
+        this.categoryNumbers = [1, 5, 6];
     }
     ngOnInit() {
         this.languageService.currentLanguage.subscribe((language) => {
@@ -1296,23 +1305,27 @@ class ServiceComponent {
     setText(language) {
         if (language === 'en') {
             this.titleText = "What We Do";
+            this.languageSwitch = "en";
         }
         else if (language === 'hr') {
             this.titleText = 'Što Mi Radimo';
+            this.languageSwitch = "hr";
         }
         else if (language === 'de') {
             this.titleText = 'Was Wir Tun';
+            this.languageSwitch = "de";
         }
         else {
             this.titleText = '';
+            this.languageSwitch = "en";
         }
     }
-    getLink(index) {
-        if (index < 2) {
-            return ['/shop'];
+    getRouteLink(index) {
+        if (index < this.categoryNumbers.length) {
+            return ['/shop', 'cat', this.categoryNumbers[index]];
         }
         else {
-            return ['/contact'];
+            return ['']; // return default or error route here
         }
     }
 }
@@ -1366,18 +1379,18 @@ class BannerComponent {
         const enBanner = {
             img: "assets/img/banner/topslider.jpg",
             subtitle: "PAQ is one of the leading manufacturers of PS and PP cups for the food industry in the region.",
-            title: "Visit our digital product world."
-          };
-          const hrBanner = {
+            title: "Visit the world of our products."
+        };
+        const hrBanner = {
             img: "assets/img/banner/topslider.jpg",
             subtitle: "PAQ je jedan od vodećih proizvođača PS i PP čaša za prehrambenu industriju u regiji.",
-            title: "Posjetite naš svijet digitalnih proizvoda."
-          };
-          const deBanner = {
+            title: "Posjetite naš svijet proizvoda."
+        };
+        const deBanner = {
             img: "assets/img/banner/topslider.jpg",
             subtitle: "PAQ ist regionweit einer der führenden Hersteller von PS-und PP-Bechern für die Lebensmittelindustrie.",
-            title: "Besuchen Sie unsere digitale Produktwelt."
-          };
+            title: "Besuchen Sie unsere Produktwelt."
+        };
         switch (language) {
             case 'en':
                 this.banner = [enBanner];
@@ -1385,7 +1398,7 @@ class BannerComponent {
                 break;
             case 'hr':
                 this.banner = [hrBanner];
-                this.buttonText = 'Produkti';
+                this.buttonText = 'Proizvodi';
                 break;
             case 'de':
                 this.banner = [deBanner];

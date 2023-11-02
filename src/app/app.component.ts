@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { BreadcrumbService, Breadcrumb } from 'angular-crumbs';
 import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { LanguageService } from './language-service.service';
+import { Subscription } from 'rxjs';
+import translations from './data/translations.json';
 
 @Component({
   selector: 'app-root',
@@ -14,19 +17,33 @@ import { Location, LocationStrategy, PathLocationStrategy } from '@angular/commo
     }
   ]
 })
-export class AppComponent implements OnInit {
-  constructor(private titleService: Title, private breadcrumbService: BreadcrumbService) {
-  }
+export class AppComponent implements OnInit, OnDestroy {
+  private languageSubscription: Subscription;
+  private breadcrumbSubscription: Subscription;
+  private currentCrumbs: Breadcrumb[];
+
+  constructor(
+    private titleService: Title,
+    private breadcrumbService: BreadcrumbService,
+    private languageService: LanguageService
+  ) {}
+
   ngOnInit(): void {
-    this.breadcrumbService.breadcrumbChanged.subscribe(crumbs => {
+    this.languageSubscription = this.languageService.currentLanguage.subscribe(() => {
+      if (this.currentCrumbs) {
+        // If there are already breadcrumbs, update the title
+        this.titleService.setTitle(this.createTitle(this.currentCrumbs));
+      }
+    });
+
+    this.breadcrumbSubscription = this.breadcrumbService.breadcrumbChanged.subscribe(crumbs => {
+      this.currentCrumbs = crumbs;
       this.titleService.setTitle(this.createTitle(crumbs));
     });
   }
-  onActivate(event){
-    window.scroll(0,0);
-  }
-  private createTitle(routesCollection: Breadcrumb[]) {
-    const title = 'Finsa - Consulting & Agency Angular';
+
+  private createTitle(routesCollection: Breadcrumb[]): string {
+    const title = 'Paq';
     const titles = routesCollection.filter((route) => route.displayName);
 
     if (!titles.length) { return title; }
@@ -35,9 +52,27 @@ export class AppComponent implements OnInit {
     return `${title}${routeTitle}`;
   }
 
-  private titlesToString(titles) {
+  private titlesToString(titles: Breadcrumb[]): string {
+    const currentLanguage = this.languageService.getCurrentLanguage();
+
     return titles.reduce((prev, curr) => {
-      return `${prev} | ${curr.displayName}`;
+      const translation = translations[curr.displayName][currentLanguage];
+      return `${prev} | ${translation}`;
     }, '');
+  }
+
+  ngOnDestroy() {
+    // Don't forget to unsubscribe when the component is destroyed
+    if (this.languageSubscription) {
+      this.languageSubscription.unsubscribe();
+    }
+    
+    if (this.breadcrumbSubscription) {
+      this.breadcrumbSubscription.unsubscribe();
+    }
+  }
+
+  onActivate(event){
+    window.scroll(0,0);
   }
 }
